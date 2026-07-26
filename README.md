@@ -1,8 +1,6 @@
 # 🚀 Enterprise Microsoft 365 Deployment
 
-```{=html}
-<p align="center">
-```
+
 ![Microsoft
 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-0078D4?style=for-the-badge&logo=microsoft)
 ![Entra
@@ -17,9 +15,6 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-```{=html}
-</p>
-```
 > **A complete enterprise deployment of Microsoft 365 Business Premium
 > for a fictional cybersecurity company, documenting every stage from
 > tenant creation to production validation using Microsoft best
