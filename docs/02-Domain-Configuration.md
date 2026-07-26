@@ -49,11 +49,11 @@ Probryx Technologies requires a professional custom domain for Microsoft 365 ide
 
 Screenshot:
 
-![](../screenshots/domain/01-default-domain.png)
+![](../Screenshots/domain/01-default-domain.png)
 
 ### Step 2 - Add Custom Domain
 
-![](../screenshots/domain/02-add-domain-1.png)
+![](../Screenshots/domain/02-add-domain-1.png)
 ![](../screenshots/domain/02-add-domain-2.png)
 
 ### Step 3 - TXT Verification
