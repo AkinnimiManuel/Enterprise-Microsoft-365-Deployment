@@ -85,7 +85,7 @@ Review:
 ../screenshots/tenant/01-admin-center-home.png
 ```
 
-![](../screenshots/tenant/01-admin-center-home.png)
+![](../Screenshots/tenant/01-admin-center-home.png)
 
 ---
 
@@ -125,7 +125,7 @@ Recommended Values
 ../screenshots/tenant/02-organization-profile.png
 ```
 
-![](../screenshots/tenant/02-organization-profile.png)
+![](../Screenshots/tenant/02-organization-profile.png)
 
 ---
 
@@ -159,7 +159,7 @@ If branding assets are unavailable, document this for future implementation.
 ../screenshots/tenant/03-company-branding.png
 ```
 
-![](../screenshots/tenant/03-company-branding.png)
+![](../Screenshots/tenant/03-company-branding.png)
 
 ---
 
@@ -179,7 +179,7 @@ Verify:
 ../screenshots/tenant/04-org-information.png
 ```
 
-![](../screenshots/tenant/04-org-information.png)
+![](../Screenshots/tenant/04-org-information.png)
 
 ---
 
@@ -203,7 +203,7 @@ No changes are required unless necessary.
 ../screenshots/tenant/05-org-settings.png
 ```
 
-![](../screenshots/tenant/05-org-settings.png)
+![](../Screenshots/tenant/05-org-settings.png)
 
 ---
 
@@ -235,7 +235,7 @@ Provides production stability while avoiding preview features.
 ../screenshots/tenant/06-release-preferences.png
 ```
 
-![](../screenshots/tenant/06-release-preferences.png)
+![](../Screenshots/tenant/06-release-preferences.png)
 
 ---
 
@@ -261,7 +261,7 @@ Review:
 ../screenshots/tenant/07-service-health.png
 ```
 
-![](../screenshots/tenant/07-service-health.png)
+![](../Screenshots/tenant/07-service-health.png)
 
 ---
 
@@ -287,7 +287,7 @@ Review:
 ../screenshots/tenant/08-message-center.png
 ```
 
-![](../screenshots/tenant/08-message-center.png)
+![](../Screenshots/tenant/08-message-center.png)
 
 ---
 
@@ -309,7 +309,7 @@ Review available portals:
 ../screenshots/tenant/09-admin-centers.png
 ```
 
-![](../screenshots/tenant/09-admin-centers.png)
+![](../Screenshots/tenant/09-admin-centers.png)
 
 ---
 
@@ -347,7 +347,7 @@ Advanced security configuration will be completed during Project 3.
 ../screenshots/tenant/10-security-defaults.png
 ```
 
-![](../screenshots/tenant/10-security-defaults.png)
+![](../Screenshots/tenant/10-security-defaults.png)
 
 ---
 
@@ -368,7 +368,7 @@ Capture a final screenshot showing:
 ../screenshots/tenant/11-tenant-summary.png
 ```
 
-![](../screenshots/tenant/11-tenant-summary.png)
+![](../Screenshots/tenant/11-tenant-summary.png)
 
 ---
 

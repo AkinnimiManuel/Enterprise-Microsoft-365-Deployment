@@ -58,12 +58,12 @@ Screenshot:
 
 ### Step 3 - TXT Verification
 
-![](../screenshots/domain/03-domain-verification-record.png)
-![](../screenshots/domain/03-domain-verification-record-2.png)
+![](../Screenshots/domain/03-domain-verification-record.png)
+![](../Screenshots/domain/03-domain-verification-record-2.png)
 
 ### Step 4 - Domain Verified
 
-![](../screenshots/domain/04-domain-verified.png)
+![](../Screenshots/domain/04-domain-verified.png)
 
 ### Step 5 - Configure DNS Records
 
@@ -75,40 +75,40 @@ Screenshot:
 |Enterprise Enrollment|Device Enrollment|08-enterprise-enrollment.png|
 |Enterprise Registration|Device Registration|09-enterprise-registration.png|
 
-![](../screenshots/domain/05-mx-record.png)
+![](../Screenshots/domain/05-mx-record.png)
 
-![](../screenshots/domain/06-spf-record.png)
+![](../Screenshots/domain/06-spf-record.png)
 
-![](../screenshots/domain/07-autodiscover.png)
+![](../Screenshots/domain/07-autodiscover.png)
 
-![](../screenshots/domain/08-enterprise-enrollment.png)
+![](../Screenshots/domain/08-enterprise-enrollment.png)
 
-![](../screenshots/domain/09-enterprise-registration.png)
+![](../Screenshots/domain/09-enterprise-registration.png)
 
-![](../screenshots/domain/09-DKIM-Setup.png)
+![](../Screenshots/domain/09-DKIM-Setup.png)
 
 ### All Records added to the cloudflare domain
-![](../screenshots/domain/09-Records-added.png)
+![](../Screenshots/domain/09-Records-added.png)
 
 ### Domain setup complete
-![](../screenshots/domain/09-Domain-setup-complete.png)
+![](../Screenshots/domain/09-Domain-setup-complete.png)
 
 
 ### Step 6 - Domain Healthy
 
-![](../screenshots/domain/10-domain-healthy.png)
+![](../Screenshots/domain/10-domain-healthy.png)
 
 ### Step 7 - Default Domain
 
-![](../screenshots/domain/11-default-domain.png)
+![](../Screenshots/domain/11-default-domain.png)
 
 ### Step 8 - Verify User UPN
 
-![](../screenshots/domain/12-user-upn-domain.png)
+![](../Screenshots/domain/12-user-upn-domain.png)
 
 ### Step 9 - Exchange Accepted Domain
 
-![](../screenshots/domain/13-exchange-accepted-domain.png)
+![](../Screenshots/domain/13-exchange-accepted-domain.png)
 
 ---
 
