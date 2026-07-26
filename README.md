@@ -33,6 +33,7 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 -   [Business Scenario](#-business-scenario)
 -   [Project Objectives](#-project-objectives)
 -   [Solution Architecture](#-solution-architecture)
+-   [Project Documentation](#-project-documentation)
 -   [Deployment Roadmap](#-deployment-roadmap)
 -   [Technology Stack](#-technology-stack)
 -   [Repository Structure](#-repository-structure)
@@ -111,15 +112,37 @@ M365 --> Teams[Microsoft Teams]
 M365 --> SharePoint[SharePoint Online]
 M365 --> OneDrive[OneDrive for Business]
 ```
+------------------------------------------------------------------------
 
+# 📚 Project Documentation
+
+This repository contains complete implementation documentation for the Enterprise Microsoft 365 Deployment project.
+
+| Phase | Documentation | Status |
+|--------|---------------|:------:|
+| 01 | [Project Planning](docs/Project-Planning.md) | ✅ |
+| 02 | [Domain Configuration](docs/Domain-Configuration.md) | ✅ |
+| 03 | [Tenant Configuration](docs/Tenant-Configuration.md) | 🚧 |
+| 04 | [Identity Management](docs/Identity-Management.md) | ⏳ |
+| 05 | [Licensing](docs/Licensing.md) | ⏳ |
+| 06 | [Exchange Online](docs/Exchange-Online.md) | ⏳ |
+| 07 | [Microsoft Teams](docs/Microsoft-Teams.md) | ⏳ |
+| 08 | [SharePoint Online](docs/SharePoint-Online.md) | ⏳ |
+| 09 | [OneDrive for Business](docs/OneDrive.md) | ⏳ |
+| 10 | [Microsoft 365 Groups](docs/Microsoft-365-Groups.md) | ⏳ |
+| 11 | [Administration](docs/Administration.md) | ⏳ |
+| 12 | [Security Baseline](docs/Security-Baseline.md) | ⏳ |
+| 13 | [Testing & Validation](docs/Testing-and-Validation.md) | ⏳ |
+| 14 | [Troubleshooting Guide](docs/Troubleshooting.md) | ⏳ |
+| 15 | [Solution Architecture](docs/Architecture.md) | ⏳ |
 ------------------------------------------------------------------------
 
 # 🚀 Deployment Roadmap
 
   Phase                   Status
   ---------------------- --------
-  Project Planning          ⏳
-  Domain Configuration      ⏳
+  Project Planning          ✅
+  Domain Configuration      ✅
   Tenant Configuration      ⏳
   Identity Management       ⏳
   Licensing                 ⏳
@@ -148,17 +171,34 @@ M365 --> OneDrive[OneDrive for Business]
 
 ------------------------------------------------------------------------
 
+
 # 📂 Repository Structure
 
-``` text
-README.md
-Architecture.md
-Troubleshooting.md
-
-docs/
-screenshots/
-scripts/
-assets/
+```
+Enterprise-Microsoft-365-Deployment
+│
+├── docs/
+│   ├── Project-Planning.md
+│   ├── Domain-Configuration.md
+│   ├── Tenant-Configuration.md
+│   ├── Identity-Management.md
+│   ├── Licensing.md
+│   ├── Exchange-Online.md
+│   ├── Microsoft-Teams.md
+│   ├── SharePoint-Online.md
+│   ├── OneDrive.md
+│   ├── Microsoft-365-Groups.md
+│   ├── Administration.md
+│   ├── Security-Baseline.md
+│   ├── Testing-and-Validation.md
+│   ├── Troubleshooting.md
+│   └── Architecture.md
+│
+├── screenshots/
+│
+├── assets/
+│
+└── README.md
 ```
 
 ------------------------------------------------------------------------
