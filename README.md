@@ -153,8 +153,6 @@ M365 --> OneDrive[OneDrive for Business]
 ``` text
 README.md
 Architecture.md
-Deployment-Guide.md
-Validation-Report.md
 Troubleshooting.md
 
 docs/
@@ -205,10 +203,10 @@ Screenshots will be added throughout the deployment:
 
   Test                   Status
   --------------------- --------
-  Tenant Created           ⏳
-  Domain Verified          ⏳
-  User Authentication      ⏳
-  Exchange Mail Flow       ⏳
+  Tenant Created           ✅
+  Domain Verified          ✅
+  User Authentication      ✅
+  Exchange Mail Flow       ✅
   Teams Collaboration      ⏳
   SharePoint Access        ⏳
   OneDrive Sync            ⏳
