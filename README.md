@@ -120,21 +120,21 @@ This repository contains complete implementation documentation for the Enterpris
 
 | Phase | Documentation | Status |
 |--------|---------------|:------:|
-| 01 | [Project Planning](docs/Project-Planning.md) | ✅ |
-| 02 | [Domain Configuration](docs/Domain-Configuration.md) | ✅ |
-| 03 | [Tenant Configuration](docs/Tenant-Configuration.md) | 🚧 |
-| 04 | [Identity Management](docs/Identity-Management.md) | ⏳ |
-| 05 | [Licensing](docs/Licensing.md) | ⏳ |
-| 06 | [Exchange Online](docs/Exchange-Online.md) | ⏳ |
-| 07 | [Microsoft Teams](docs/Microsoft-Teams.md) | ⏳ |
-| 08 | [SharePoint Online](docs/SharePoint-Online.md) | ⏳ |
-| 09 | [OneDrive for Business](docs/OneDrive.md) | ⏳ |
-| 10 | [Microsoft 365 Groups](docs/Microsoft-365-Groups.md) | ⏳ |
-| 11 | [Administration](docs/Administration.md) | ⏳ |
-| 12 | [Security Baseline](docs/Security-Baseline.md) | ⏳ |
-| 13 | [Testing & Validation](docs/Testing-and-Validation.md) | ⏳ |
-| 14 | [Troubleshooting Guide](docs/Troubleshooting.md) | ⏳ |
-| 15 | [Solution Architecture](docs/Architecture.md) | ⏳ |
+| 01 | [Project Planning](docs/01-Project-Planning.md) | ✅ |
+| 02 | [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ |
+| 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | 🚧 |
+| 04 | [Identity Management](docs/04-Identity-Management.md) | ⏳ |
+| 05 | [Licensing](docs/05-Licensing.md) | ⏳ |
+| 06 | [Exchange Online](docs/06-Exchange-Online.md) | ⏳ |
+| 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ |
+| 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ |
+| 09 | [OneDrive for Business](09-docs/OneDrive.md) | ⏳ |
+| 10 | [Security Baseline](docs/10-Security-Baseline.md) | ⏳ |
+| 11 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
+| 12 | [Administration](docs/12-Administration.md) | ⏳ |
+| 13 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
+
+
 ------------------------------------------------------------------------
 
 # 🚀 Deployment Roadmap
