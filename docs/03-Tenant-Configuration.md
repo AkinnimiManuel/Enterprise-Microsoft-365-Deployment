@@ -81,10 +81,6 @@ Review:
 
 ### Screenshot
 
-```
-../screenshots/tenant/01-admin-center-home.png
-```
-
 ![](../Screenshots/tenant/01-admin-center-home.png)
 
 ---
@@ -121,9 +117,6 @@ Recommended Values
 
 ### Screenshot
 
-```
-../screenshots/tenant/02-organization-profile.png
-```
 
 ![](../Screenshots/tenant/02-organization-profile.png)
 
