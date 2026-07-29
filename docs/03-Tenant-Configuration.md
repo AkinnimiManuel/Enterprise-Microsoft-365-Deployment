@@ -156,7 +156,7 @@ If branding assets are unavailable, document this for future implementation.
 
 ---
 
-## Step 4 – Organization Information
+## Step 4 – Organisation Information
 
 Verify:
 
@@ -168,11 +168,14 @@ Verify:
 
 ### Screenshot
 
-```
-../screenshots/tenant/04-org-information.png
-```
-
+### Organisation Information
 ![](../Screenshots/tenant/04-org-information.png)
+
+### Custom Domains
+![](../Screenshots/tenant/04-org-information-2.png)
+
+### Billing Information 
+![](../Screenshots/tenant/04-org-information-3.png)
 
 ---
 
