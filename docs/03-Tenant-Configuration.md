@@ -83,6 +83,10 @@ Review:
 
 ![](../Screenshots/tenant/01-admin-center-home.png)
 
+### Subscription
+![](../Screenshots/tenant/01-admin-center-home.png)
+
+
 ---
 
 ## Step 2 – Configure Organization Profile
@@ -98,22 +102,6 @@ Org Settings
 ↓
 
 Organization Profile
-
-Configure:
-
-- Company Name
-- Country
-- Language
-- Time Zone
-
-Recommended Values
-
-| Setting | Value |
-|----------|-------|
-| Organization | Probryx Technologies Ltd. |
-| Country | Nigeria |
-| Language | English |
-| Time Zone | UTC +01:00 West Central Africa |
 
 ### Screenshot
 
@@ -195,12 +183,19 @@ No changes are required unless necessary.
 
 ### Screenshot
 
-```
-../screenshots/tenant/05-org-settings.png
-```
-
 ![](../Screenshots/tenant/05-org-settings.png)
 
+### Calendar Settings
+![](../Screenshots/tenant/05-calendar-org-settings.png)
+
+### User owned app settings
+![](../Screenshots/tenant/05-user-owned-app-org-settings.png)
+
+### User purchase settings
+![](../Screenshots/tenant/05-self-service-purchase-org-settings.png)
+
+
+The organization settings were reviewed to understand the tenant's default configuration and identify settings that may require modification in future deployment phases. No changes were made during this phase because the objective was to establish a documented baseline.
 ---
 
 ## Step 6 – Configure Release Preferences
@@ -253,10 +248,6 @@ Review:
 
 ### Screenshot
 
-```
-../screenshots/tenant/07-service-health.png
-```
-
 ![](../Screenshots/tenant/07-service-health.png)
 
 ---
@@ -279,37 +270,11 @@ Review:
 
 ### Screenshot
 
-```
-../screenshots/tenant/08-message-center.png
-```
-
 ![](../Screenshots/tenant/08-message-center.png)
 
 ---
 
-## Step 9 – Review Available Admin Centers
-
-Review available portals:
-
-- Microsoft Entra
-- Exchange
-- Teams
-- SharePoint
-- Intune
-- Security
-- Compliance
-
-### Screenshot
-
-```
-../screenshots/tenant/09-admin-centers.png
-```
-
-![](../Screenshots/tenant/09-admin-centers.png)
-
----
-
-## Step 10 – Review Security Defaults
+## Step 9 – Review Security Defaults
 
 Navigate to
 
@@ -339,32 +304,8 @@ Advanced security configuration will be completed during Project 3.
 
 ### Screenshot
 
-```
-../screenshots/tenant/10-security-defaults.png
-```
+![](../Screenshots/tenant/9-security-defaults.png)
 
-![](../Screenshots/tenant/10-security-defaults.png)
-
----
-
-## Step 11 – Tenant Summary
-
-Return to Microsoft 365 Admin Center.
-
-Capture a final screenshot showing:
-
-- Organization Name
-- Domain
-- Subscription
-- Overall Tenant Status
-
-### Screenshot
-
-```
-../screenshots/tenant/11-tenant-summary.png
-```
-
-![](../Screenshots/tenant/11-tenant-summary.png)
 
 ---
 
@@ -402,25 +343,7 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 ---
 
-# 8. Screenshots
-
-| Screenshot | Description |
-|------------|-------------|
-| 01-admin-center-home.png | Microsoft 365 Admin Center Dashboard |
-| 02-organization-profile.png | Organization Profile |
-| 03-company-branding.png | Company Branding |
-| 04-org-information.png | Organization Information |
-| 05-org-settings.png | Organization Settings |
-| 06-release-preferences.png | Release Preferences |
-| 07-service-health.png | Microsoft Service Health |
-| 08-message-center.png | Microsoft Message Center |
-| 09-admin-centers.png | Available Admin Centers |
-| 10-security-defaults.png | Security Defaults |
-| 11-tenant-summary.png | Final Tenant Overview |
-
----
-
-# 9. Validation
+# 8. Validation
 
 | Validation Item | Status |
 |-----------------|:------:|
@@ -436,17 +359,15 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 ---
 
-# 10. Troubleshooting
+# 9. Troubleshooting
 
 | Issue | Cause | Resolution |
 |------|------|-----------|
 | Company branding unavailable | Branding assets not prepared | Configure after branding is created |
-| Release Preferences unavailable | Permission issue | Verify Global Administrator role |
-| Service Health unavailable | Microsoft service issue | Retry later |
 
 ---
 
-# 11. Lessons Learned
+# 10. Lessons Learned
 
 - A Microsoft 365 tenant should be configured before creating users.
 - Organization settings establish consistency across Microsoft services.
@@ -456,7 +377,7 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 ---
 
-# 12. References
+# 11. References
 
 - Microsoft Learn – Microsoft 365 Admin Center
 - Microsoft Learn – Microsoft Entra ID
@@ -470,6 +391,6 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 | Version | Date | Author | Description |
 |----------|------|--------|-------------|
-| 1.0 | YYYY-MM-DD | Emmanuel Stefan Akinnimi | Initial Tenant Configuration |
+| 1.0 | 2026-07-30 | Emmanuel Stefan Akinnimi | Initial Tenant Configuration |
 
 ---
