@@ -150,10 +150,6 @@ Security Groups are used to manage access to organizational resources by assigni
 
 ### Screenshot
 
-```
-../../screenshots/identity/groups/01-security-groups-created.png
-```
-
 ![](../../screenshots/identity/groups/01-security-groups-created.png)
 
 ---
