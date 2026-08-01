@@ -284,12 +284,150 @@ Explain:
 - External identities
 
 # 8. Validation
+
+## Validation 1 (User Sign in)
 - User sign-in
-- License assigned
+![](../../screenshots/identity/10-validation-user-sign-in.png)
+
+MFA Set up requets
 - MFA works
+![](../../screenshots/identity/10-validation-MFA.png)
+
+MFA Added successfully ✅
+![](../../screenshots/identity/10-validation-MFA.-added.png)
+
+Jane Smith signed in successfully ✅
+Maibox Active 
+
+![](../../screenshots/identity/10-validation-user-sign-in-successful.png)
+
+## Validation 2 (Password Resets)
 - Password reset works
+![](../../screenshots/identity/10-validation-password-reset.png)
+
+![](../../screenshots/identity/10-validation-password-reset-done.png)
+
+## Validation 3 (Admin Role Verification)
+
 - Admin roles verified
-- Guest invitation tested
+Jane Smith (User Administrator)
+
+The following validation tests were performed to verify that the delegated **User Administrator** role was functioning as expected while enforcing Microsoft Entra ID Role-Based Access Control (RBAC) and the principle of least privilege.
+
+---
+
+#### User Provisioning
+
+**Objective**
+
+Verify that a User Administrator can successfully create a new user account.
+
+**Procedure**
+
+1. Signed in as **Jane Smith** (`jane.smith@probryx.org`).
+![](../../screenshots/identity/10-validation-jane-smith-entra-role.png)
+
+2. Navigated to **Microsoft Entra Admin Center** → **Identity** → **Users**.
+3. Selected **New User (Bob Philip)**.
+4. Created a test user account.
+
+**Expected Result**
+
+The User Administrator should be able to create standard user accounts.
+
+**Actual Result**
+
+The test user account was created successfully without requiring Global Administrator privileges.
+
+**Status**
+
+✅ Passed
+
+**Screenshot**
+
+![](../../screenshots/identity/10-validation-bob-philip-user-created.png)
+
+![](../../screenshots/identity/10-validation-bob-philip-user-created-1.png)
+
+---
+
+#### Password Reset
+
+**Objective**
+
+Verify that a User Administrator can reset the password of a standard user.
+
+**Procedure**
+
+1. Signed in as **Jane Smith**.
+2. Selected an existing user account.
+3. Chose **Reset Password**.
+4. Generated a temporary password.
+
+**Expected Result**
+
+The User Administrator should be able to reset passwords for supported user accounts.
+
+**Actual Result**
+
+The password reset operation completed successfully, confirming delegated password management functionality.
+
+**Status**
+
+✅ Passed
+
+**Screenshot**
+
+![](../../screenshots/identity/10-validation-reset-password.png)
+
+---
+
+#### Role-Based Access Control (Least Privilege)
+
+**Objective**
+
+Verify that the User Administrator role cannot perform actions reserved for higher privileged administrative roles.
+
+**Procedure**
+
+1. Signed in as **Jane Smith**.
+2. Attempted to perform an administrative action outside the scope of the User Administrator role (for example, assigning the **Global Administrator** role).
+3. The add assignments button should be greyed out
+
+**Expected Result**
+
+Access should be denied because the operation requires higher administrative privileges.
+
+**Actual Result**
+
+Microsoft Entra ID denied the operation, confirming that Role-Based Access Control (RBAC) and the principle of least privilege were correctly enforced.
+
+**Status**
+
+✅ Passed
+
+**Screenshot**
+
+![](../../screenshots/identity/10-validation-RBAC.png)
+
+---
+
+## Validation Summary
+
+| Validation Test   | Expected Result                   | Actual Result             | Status |
+| ----------------- | --------------------------------- | ------------------------- | :----: |
+| User Provisioning | User account created successfully | Successful                |    ✅   |
+| Password Reset    | Password reset completed          | Successful                |    ✅   |
+| RBAC Enforcement  | Privileged action denied          | Access denied as expected |    ✅   |
+
+## Conclusion
+
+The validation activities confirmed that the Microsoft Entra ID identity environment was successfully configured and operating as intended. User accounts were provisioned correctly, and a newly created user was able to sign in successfully, verifying the onboarding process. Multi-Factor Authentication (MFA) was successfully configured and enforced, demonstrating an additional layer of identity protection. Password reset functionality was validated through both administrative password reset and user authentication scenarios, confirming effective identity recovery capabilities.
+
+Role-Based Access Control (RBAC) was also successfully validated. The **User Administrator** account was able to perform delegated identity management tasks, including creating new user accounts and resetting user passwords, while being prevented from performing privileged actions outside its assigned role, such as assigning role to users as a user admin. This confirms that the principle of least privilege was correctly implemented and that administrative permissions were appropriately restricted.
+
+Overall, the validation results demonstrate that the identity management configuration provides a secure, well-governed, and enterprise-ready Microsoft Entra ID environment that aligns with Microsoft security best practices and establishes a solid foundation for subsequent phases of the Enterprise Microsoft 365 Deployment project.
+
 
 # 9. Troubleshooting
 | Issue | Resolution |
