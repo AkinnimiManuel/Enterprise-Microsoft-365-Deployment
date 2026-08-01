@@ -150,7 +150,10 @@ Security Groups are used to manage access to organizational resources by assigni
 
 ### Screenshot
 
-![](../../screenshots/identity/groups/01-security-groups-created.png)
+![](../../screenshots/identity/Identity-Groups/01-security-groups-created.png)
+
+### All SG Created
+![](../../screenshots/identity/Identity-Groups/01-security-groups-created-1.png)
 
 ---
 
@@ -170,11 +173,7 @@ Adding users to groups centralizes permission management and reduces administrat
 
 ### Screenshot
 
-```
-../../screenshots/identity/groups/02-security-group-members.png
-```
-
-![](../../screenshots/identity/groups/02-security-group-members.png)
+![](../../screenshots/identity/Identity-Groups/02-security-group-members.png)
 
 ---
 
@@ -204,11 +203,7 @@ Microsoft 365 Groups automatically provide shared resources including Outlook, T
 
 ### Screenshot
 
-```
-../../screenshots/identity/groups/03-m365-groups-created.png
-```
-
-![](../../screenshots/identity/groups/03-m365-groups-created.png)
+![](../../screenshots/identity/Identity-Groups/03-m365-groups-created.png)
 
 ---
 
@@ -228,11 +223,7 @@ Group owners are responsible for managing membership and maintaining the group's
 
 ### Screenshot
 
-```
-../../screenshots/identity/groups/04-group-owners.png
-```
-
-![](../../screenshots/identity/groups/04-group-owners.png)
+![](../../screenshots/identity/Identity-Groups/04-group-owners.png)
 
 ---
 
@@ -262,12 +253,9 @@ Distribution Lists simplify email communication by allowing messages to be sent 
 
 ### Screenshot
 
-```
-../../screenshots/identity/groups/05-distribution-lists.png
-```
+![](../../screenshots/identity/Identity-Groups/05-distribution-lists.png)
 
-![](../../screenshots/identity/groups/05-distribution-lists.png)
-
+![](../../screenshots/identity/Identity-Groups/05-distribution-lists-groups.png)
 ---
 
 ## Step 6 – Create Shared Mailboxes
@@ -282,7 +270,7 @@ Recipients
 
 ↓
 
-Shared Mailboxes
+Mailboxes
 
 ↓
 
@@ -304,11 +292,13 @@ Shared mailboxes allow multiple users to manage a common mailbox without requiri
 
 ### Screenshot
 
-```text
-../../screenshots/identity/groups/06-shared-mailboxes.png
-```
+![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes.png)
 
-![](../../screenshots/identity/groups/06-shared-mailboxes.png)
+### Assign members to the shared mailbox
+
+Gave Jane.smith the permission to support@probryx.org shared mailbox
+
+![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes-01.png)
 
 ---
 
@@ -328,10 +318,6 @@ Verify:
 Reviewing group membership helps ensure users receive the correct level of access and prevents unauthorized or excessive permissions.
 
 ### Screenshot
-
-```text
-../../screenshots/identity/groups/07-group-membership-review.png
-```
 
 ![](../../screenshots/identity/groups/07-group-membership-review.png)
 
