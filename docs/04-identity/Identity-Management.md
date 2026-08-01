@@ -11,6 +11,8 @@ This document describes the complete enterprise identity implementation for Prob
 # 2. Business Requirement
 Implement a secure, scalable Microsoft Entra ID identity platform following Zero Trust and least privilege principles.
 
+---
+
 # 3. Objectives
 - Enterprise identity design
 - Naming standards
@@ -22,10 +24,14 @@ Implement a secure, scalable Microsoft Entra ID identity platform following Zero
 - Guest users
 - Validation
 
+---
+
 # 4. Prerequisites
 - Business Premium tenant
 - probryx.org verified
 - Global Administrator
+
+---
 
 # 5. Enterprise Identity Design
 
@@ -54,6 +60,8 @@ Implement a secure, scalable Microsoft Entra ID identity platform following Zero
 - teams.admin@probryx.org
 - sharepoint.admin@probryx.org
 - helpdesk.admin@probryx.org
+
+---
 
 # 6. Implementation Steps
 
@@ -223,19 +231,9 @@ flowchart TD
     G --> H["Leaver"]
     H --> I["Account Disabled & Archived"]
 ```
+---
 
-
-# 7. Technical Explanation
-Explain:
-- Least privilege
-- RBAC
-- MFA
-- SSPR
-- Naming standards
-- Identity lifecycle
-- External identities
-
-# 8. Validation
+# 7. Validation
 
 ## Validation 1 (User Sign in)
 - User sign-in
@@ -381,13 +379,39 @@ Role-Based Access Control (RBAC) was also successfully validated. The **User Adm
 Overall, the validation results demonstrate that the identity management configuration provides a secure, well-governed, and enterprise-ready Microsoft Entra ID environment that aligns with Microsoft security best practices and establishes a solid foundation for subsequent phases of the Enterprise Microsoft 365 Deployment project.
 
 
-# 9. Troubleshooting
+# 8. Troubleshooting
 | Issue | Resolution |
 |---|---|
 | Cannot create user | Verify Global Admin |
 | License unavailable | Check subscription |
 | MFA prompt missing | Review Authentication Methods |
 | SSPR unavailable | Review Password Reset configuration |
+
+# 9. Technical Explanation
+
+## Entra ID
+Microsoft Entra ID provides centralized identity and access management for Microsoft 365. A well-designed identity structure improves security, simplifies administration, and supports future growth.
+
+## User Naming Standards
+Standardized naming conventions ensure user accounts are consistent, easy to manage, and simple to locate. They also improve automation and administrative efficiency.
+
+## User Provisioning
+User provisioning creates employee accounts and assigns the appropriate identity attributes, licenses, and permissions. This ensures users have the access required to perform their job responsibilities.
+
+## Administrative Roles (RBAC)
+Role-Based Access Control (RBAC) assigns permissions based on job responsibilities rather than granting full administrative access. This supports the principle of least privilege and reduces security risks.
+
+## Authentication Methods
+Authentication methods determine how users verify their identity when accessing Microsoft 365 services. Multiple authentication options improve security and provide flexibility for users.
+
+## Multi-Factor Authentication (MFA)
+MFA requires users to verify their identity using more than one authentication factor. This significantly reduces the risk of unauthorized access caused by compromised passwords.
+
+## Self-Service Password Reset (SSPR)
+SSPR enables users to securely reset their own passwords without IT assistance. This reduces helpdesk workload while improving productivity.
+
+## User Lifecycle (Joiner, Mover, Leaver)
+User lifecycle management ensures accounts are created, updated, and removed as employees join, change roles, or leave the organization. This helps maintain accurate access permissions throughout employment.
 
 # 10. Lessons Learned
 - Identity planning reduces future administration effort.
@@ -400,7 +424,7 @@ Overall, the validation results demonstrate that the identity management configu
 - Microsoft Learn – SSPR
 - Microsoft Learn – RBAC
 
-# Change Log
+# 12. Change Log
 |Version|Date|Author|
 |---|---|---|
 |1.0|2026-08-01|Stefan Akinnimi|
