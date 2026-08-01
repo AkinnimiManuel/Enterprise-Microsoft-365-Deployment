@@ -61,7 +61,7 @@ Implement a secure, scalable Microsoft Entra ID identity platform following Zero
 Navigate: Identity → Overview
 
 Screenshot:
-![](../../screenshots/identity/01-entra-overview.png)
+![](../../Screenshots/identity/01-entra-overview.png)
 
 ## Step 2 – Create Users
 Identity → Users → New user
@@ -76,7 +76,7 @@ users created:
 - Michael Brown (Operations)
 
 Screenshot:
-![](../../screenshots/identity/02-create-users.png)
+![](../../Screenshots/identity/02-create-users.png)
 
 ## Step 3 – Populate User Properties
 Configure:
@@ -88,20 +88,20 @@ Configure:
 - Phone
 
 Screenshot:
-![](../../screenshots/identity/03-user-properties.png)
+![](../../Screenshots/identity/03-user-properties.png)
 
 ## Step 4 – Assign Licenses
 Assign Microsoft 365 Business Premium.
 
 Screenshot:
-![](../../screenshots/identity/04-license-assignment.png)   
+![](../../Screenshots/identity/04-license-assignment.png)   
 
-![](../../screenshots/identity/04-license-assignment-1.png)
+![](../../Screenshots/identity/04-license-assignment-1.png)
 
-![](../../screenshots/identity/04-license-assignment-2.png)
+![](../../Screenshots/identity/04-license-assignment-2.png)
 
 All Users Created
-![](../../screenshots/identity/02-create-users-1.png)
+![](../../Screenshots/identity/02-create-users-1.png)
 
 ## Step 5 – Administrative Roles
 Identity → Roles and administrators
@@ -114,7 +114,7 @@ Assign:
 - SharePoint Administrator
 
 Screenshot:
-![](../../screenshots/identity/05-admin-roles.png)
+![](../../Screenshots/identity/05-admin-roles.png)
 
 ## Step 6 – Authentication Methods
 Entar ID - Authentication Methods
@@ -126,7 +126,7 @@ Review:
 - Temporary Access Pass
 
 Screenshot:
-![](../../screenshots/identity/06-auth-methods.png)
+![](../../Screenshots/identity/06-auth-methods.png)
 
 ## Step 7 – Self-Service Password Reset
 Entra ID → Password reset
@@ -134,7 +134,7 @@ Entra ID → Password reset
 Enable SSPR.
 
 Screenshot:
-![](../../screenshots/identity/07-sspr.png)
+![](../../Screenshots/identity/07-sspr.png)
 
 
 ## Step 8 – Guest Users
@@ -143,9 +143,9 @@ Identity → External Identities
 Document guest access strategy.
 
 Screenshot:
-![](../../screenshots/identity/08-guest-users.png)
+![](../../Screenshots/identity/08-guest-users.png)
 
-![](../../screenshots/identity/08-guest-users-1.png)
+![](../../Screenshots/identity/08-guest-users-1.png)
 
 ## Step 9 – User Lifecycle
 Document Joiner / Mover / Leaver process.
@@ -175,7 +175,7 @@ User Signs In
 Identity Provisioned ✅
 
 Screenshot:
-![](../../screenshots/identity/09-user-lifecycle.png)
+![](../../Screenshots/identity/09-user-lifecycle.png)
 
 Mover 
 Manager/HR Request
@@ -203,7 +203,7 @@ Validate User Access
 Identity Updated ✅
 
 Screenshot:
-![](../../screenshots/identity/09-user-lifecycle-1.png)
+![](../../Screenshots/identity/09-user-lifecycle-1.png)
 
 Leaver
 
@@ -235,13 +235,13 @@ Archive / Delete Account
 Identity Deprovisioned ✅
 
 Block sign-in/disable account
-![](../../screenshots/identity/09-user-lifecycle-2.png)
+![](../../Screenshots/identity/09-user-lifecycle-2.png)
 
 Remove Group membership
-![](../../screenshots/identity/09-user-lifecycle-3.png)
+![](../../Screenshots/identity/09-user-lifecycle-3.png)
 
 Remove License
-![](../../screenshots/identity/09-user-lifecycle-4.png)
+![](../../Screenshots/identity/09-user-lifecycle-4.png)
 
            ┌──────────────┐
            │   Joiner     │
@@ -287,25 +287,25 @@ Explain:
 
 ## Validation 1 (User Sign in)
 - User sign-in
-![](../../screenshots/identity/10-validation-user-sign-in.png)
+![](../../Screenshots/identity/10-validation-user-sign-in.png)
 
 MFA Set up requets
 - MFA works
-![](../../screenshots/identity/10-validation-MFA.png)
+![](../../Screenshots/identity/10-validation-MFA.png)
 
 MFA Added successfully ✅
-![](../../screenshots/identity/10-validation-MFA.-added.png)
+![](../../Screenshots/identity/10-validation-MFA.-added.png)
 
 Jane Smith signed in successfully ✅
 Maibox Active 
 
-![](../../screenshots/identity/10-validation-user-sign-in-successful.png)
+![](../../Screenshots/identity/10-validation-user-sign-in-successful.png)
 
 ## Validation 2 (Password Resets)
 - Password reset works
-![](../../screenshots/identity/10-validation-password-reset.png)
+![](../../Screenshots/identity/10-validation-password-reset.png)
 
-![](../../screenshots/identity/10-validation-password-reset-done.png)
+![](../../Screenshots/identity/10-validation-password-reset-done.png)
 
 ## Validation 3 (Admin Role Verification)
 
@@ -325,7 +325,7 @@ Verify that a User Administrator can successfully create a new user account.
 **Procedure**
 
 1. Signed in as **Jane Smith** (`jane.smith@probryx.org`).
-![](../../screenshots/identity/10-validation-jane-smith-entra-role.png)
+![](../../Screenshots/identity/10-validation-jane-smith-entra-role.png)
 
 2. Navigated to **Microsoft Entra Admin Center** → **Identity** → **Users**.
 3. Selected **New User (Bob Philip)**.
@@ -345,9 +345,9 @@ The test user account was created successfully without requiring Global Administ
 
 **Screenshot**
 
-![](../../screenshots/identity/10-validation-bob-philip-user-created.png)
+![](../../Screenshots/identity/10-validation-bob-philip-user-created.png)
 
-![](../../screenshots/identity/10-validation-bob-philip-user-created-1.png)
+![](../../Screenshots/identity/10-validation-bob-philip-user-created-1.png)
 
 ---
 
@@ -378,7 +378,7 @@ The password reset operation completed successfully, confirming delegated passwo
 
 **Screenshot**
 
-![](../../screenshots/identity/10-validation-reset-password.png)
+![](../../Screenshots/identity/10-validation-reset-password.png)
 
 ---
 
@@ -408,7 +408,7 @@ Microsoft Entra ID denied the operation, confirming that Role-Based Access Contr
 
 **Screenshot**
 
-![](../../screenshots/identity/10-validation-RBAC.png)
+![](../../Screenshots/identity/10-validation-RBAC.png)
 
 ---
 
