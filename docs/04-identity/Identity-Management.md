@@ -150,7 +150,7 @@ Screenshot:
 ## Step 9 – User Lifecycle
 Document Joiner / Mover / Leaver process.
 
-###Joiner 
+### Joiner 
 
 ```mermaid
 flowchart TD
@@ -207,34 +207,22 @@ Remove Group membership
 Remove License
 ![](../../Screenshots/identity/09-user-lifecycle-4.png)
 
-           ┌──────────────┐
-           │   Joiner     │
-           │  Onboarding  │
-           └──────┬───────┘
-                  │
-                  ▼
-        Identity Created
-                  │
-                  ▼
-      Active Employee Account
-                  │
-        ┌─────────┴─────────┐
-        ▼                   ▼
-   Role Change          Department Change
-      (Mover)               (Mover)
-        │                   │
-        └─────────┬─────────┘
-                  ▼
-       Updated Identity & Access
-                  │
-                  ▼
-          Employment Ends
-                  │
-                  ▼
-              Leaver
-                  │
-                  ▼
-      Account Disabled & Archived
+### Final User lifecycle diagram
+```mermaid
+flowchart TD
+    A["Joiner<br/>Onboarding"] --> B["Identity Created"]
+    B --> C["Active Employee Account"]
+
+    C --> D["Role Change<br/>(Mover)"]
+    C --> E["Department Change<br/>(Mover)"]
+
+    D --> F["Updated Identity & Access"]
+    E --> F
+
+    F --> G["Employment Ends"]
+    G --> H["Leaver"]
+    H --> I["Account Disabled & Archived"]
+```
 
 
 # 7. Technical Explanation
