@@ -151,88 +151,50 @@ Screenshot:
 Document Joiner / Mover / Leaver process.
 
 Joiner 
-HR Request
-     │
-     ▼
-Create User Account
-     │
-     ▼
-Assign Microsoft 365 License
-     │
-     ▼
-Assign Groups & Roles
-     │
-     ▼
-Configure MFA & SSPR
-     │
-     ▼
-Provide Temporary Password
-     │
-     ▼
-User Signs In
-     │
-     ▼
-Identity Provisioned ✅
+
+```mermaid
+flowchart TD
+    A[HR Request] --> B[Create User Account]
+    B --> C[Assign Microsoft 365 License]
+    C --> D[Assign Groups & Roles]
+    D --> E[Configure MFA & SSPR]
+    E --> F[Provide Temporary Password]
+    F --> G[User Signs In]
+    G --> H[Identity Provisioned ✅]
+```
 
 Screenshot:
 ![](../../Screenshots/identity/09-user-lifecycle.png)
 
 Mover 
-Manager/HR Request
-        │
-        ▼
-Review New Role
-        │
-        ▼
-Update User Profile
-(Job Title, Department, Manager)
-        │
-        ▼
-Remove Old Group Memberships
-        │
-        ▼
-Assign New Groups & Roles
-        │
-        ▼
-Review License Requirements
-        │
-        ▼
-Validate User Access
-        │
-        ▼
-Identity Updated ✅
+
+```mermaid
+flowchart TD
+    A[Manager/HR Request] --> B[Review New Role]
+    B --> C[Update User Profile]
+    C --> D[Update Department]
+    D --> E[Update Manager]
+    E --> F[Remove Old Group Memberships]
+    F --> G[Assign New Groups & Roles]
+    G --> H[Review License Requirements]
+    H --> I[Validate User Access]
+    I --> J[Identity Updated ✅]
+```
 
 Screenshot:
 ![](../../Screenshots/identity/09-user-lifecycle-1.png)
 
-Leaver
-
-HR Termination Notice
-         │
-         ▼
-Block User Sign-In
-         │
-         ▼
-Reset Password
-         │
-         ▼
-Remove Admin Roles
-         │
-         ▼
-Remove Microsoft 365 License
-         │
-         ▼
-Convert Mailbox to Shared Mailbox
-(Optional)
-         │
-         ▼
-Remove Group Memberships
-         │
-         ▼
-Archive / Delete Account
-         │
-         ▼
-Identity Deprovisioned ✅
+```mermaid
+flowchart TD
+    A[HR Termination Notice] --> B[Block User Sign-In]
+    B --> C[Reset Password]
+    C --> D[Remove Administrative Roles]
+    D --> E[Remove Microsoft 365 License]
+    E --> F[Convert Mailbox to Shared Mailbox]
+    F --> G[Remove Group Memberships]
+    G --> H[Archive/Delete Account]
+    H --> I[Identity Deprovisioned ✅]
+```
 
 Block sign-in/disable account
 ![](../../Screenshots/identity/09-user-lifecycle-2.png)
