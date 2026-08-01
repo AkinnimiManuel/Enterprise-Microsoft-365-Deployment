@@ -51,7 +51,7 @@ A correctly configured tenant ensures consistency, simplifies administration, an
 |------|:------:|
 | Microsoft 365 Admin Center Reviewed | ✅ |
 | Organization Profile Configured | ✅ |
-| Company Branding Reviewed | ✅ |
+| Company Branding Reviewed | ⌛ |
 | Organization Information Verified | ✅ |
 | Organization Settings Reviewed | ✅ |
 | Release Preferences Configured | ✅ |

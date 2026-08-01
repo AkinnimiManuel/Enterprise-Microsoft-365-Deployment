@@ -118,7 +118,7 @@ This repository contains complete implementation documentation for the Enterpris
 | 01 | [Project Planning](docs/01-Project-Planning.md) | ✅ |
 | 02 | [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ |
 | 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | 🚧 |
-| 04 | [Identity Management](docs/04-Identity-Management.md) | ⏳ |
+| 04 | [Identity Management](docs/04-identity/README.md) | ⏳ |
 | 05 | [Licensing](docs/05-Licensing.md) | ⏳ |
 | 06 | [Exchange Online](docs/06-Exchange-Online.md) | ⏳ |
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ |
