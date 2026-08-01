@@ -61,7 +61,7 @@ Implement a secure, scalable Microsoft Entra ID identity platform following Zero
 Navigate: Identity → Overview
 
 Screenshot:
-![](../screenshots/identity/01-entra-overview.png)
+![](../../screenshots/identity/01-entra-overview.png)
 
 ## Step 2 – Create Users
 Identity → Users → New user
@@ -76,7 +76,7 @@ users created:
 - Michael Brown (Operations)
 
 Screenshot:
-![](../screenshots/identity/02-create-users.png)
+![](../../screenshots/identity/02-create-users.png)
 
 ## Step 3 – Populate User Properties
 Configure:
@@ -88,20 +88,20 @@ Configure:
 - Phone
 
 Screenshot:
-![](../screenshots/identity/03-user-properties.png)
+![](../../screenshots/identity/03-user-properties.png)
 
 ## Step 4 – Assign Licenses
 Assign Microsoft 365 Business Premium.
 
 Screenshot:
-![](../screenshots/identity/04-license-assignment.png)   
+![](../../screenshots/identity/04-license-assignment.png)   
 
-![](../screenshots/identity/04-license-assignment-1.png)
+![](../../screenshots/identity/04-license-assignment-1.png)
 
-![](../screenshots/identity/04-license-assignment-2.png)
+![](../../screenshots/identity/04-license-assignment-2.png)
 
 All Users Created
-![](../screenshots/identity/02-create-users-1.png)
+![](../../screenshots/identity/02-create-users-1.png)
 
 ## Step 5 – Administrative Roles
 Identity → Roles and administrators
@@ -114,7 +114,7 @@ Assign:
 - SharePoint Administrator
 
 Screenshot:
-![](../screenshots/identity/05-admin-roles.png)
+![](../../screenshots/identity/05-admin-roles.png)
 
 ## Step 6 – Authentication Methods
 Entar ID - Authentication Methods
@@ -126,7 +126,7 @@ Review:
 - Temporary Access Pass
 
 Screenshot:
-![](../screenshots/identity/06-auth-methods.png)
+![](../../screenshots/identity/06-auth-methods.png)
 
 ## Step 7 – Self-Service Password Reset
 Entra ID → Password reset
@@ -134,7 +134,7 @@ Entra ID → Password reset
 Enable SSPR.
 
 Screenshot:
-![](../screenshots/identity/07-sspr.png)
+![](../../screenshots/identity/07-sspr.png)
 
 
 ## Step 8 – Guest Users
@@ -143,33 +143,136 @@ Identity → External Identities
 Document guest access strategy.
 
 Screenshot:
-![](../screenshots/identity/08-guest-users.png)
+![](../../screenshots/identity/08-guest-users.png)
 
-![](../screenshots/identity/08-guest-users-1.png)
+![](../../screenshots/identity/08-guest-users-1.png)
 
 ## Step 9 – User Lifecycle
 Document Joiner / Mover / Leaver process.
 
 Joiner 
+HR Request
+     │
+     ▼
+Create User Account
+     │
+     ▼
+Assign Microsoft 365 License
+     │
+     ▼
+Assign Groups & Roles
+     │
+     ▼
+Configure MFA & SSPR
+     │
+     ▼
+Provide Temporary Password
+     │
+     ▼
+User Signs In
+     │
+     ▼
+Identity Provisioned ✅
 
 Screenshot:
-![](../screenshots/identity/09-user-lifecycle.png)
+![](../../screenshots/identity/09-user-lifecycle.png)
 
 Mover 
+Manager/HR Request
+        │
+        ▼
+Review New Role
+        │
+        ▼
+Update User Profile
+(Job Title, Department, Manager)
+        │
+        ▼
+Remove Old Group Memberships
+        │
+        ▼
+Assign New Groups & Roles
+        │
+        ▼
+Review License Requirements
+        │
+        ▼
+Validate User Access
+        │
+        ▼
+Identity Updated ✅
 
 Screenshot:
-![](../screenshots/identity/09-user-lifecycle-1.png)
+![](../../screenshots/identity/09-user-lifecycle-1.png)
 
 Leaver
 
+HR Termination Notice
+         │
+         ▼
+Block User Sign-In
+         │
+         ▼
+Reset Password
+         │
+         ▼
+Remove Admin Roles
+         │
+         ▼
+Remove Microsoft 365 License
+         │
+         ▼
+Convert Mailbox to Shared Mailbox
+(Optional)
+         │
+         ▼
+Remove Group Memberships
+         │
+         ▼
+Archive / Delete Account
+         │
+         ▼
+Identity Deprovisioned ✅
+
 Block sign-in/disable account
-![](../screenshots/identity/09-user-lifecycle-2.png)
+![](../../screenshots/identity/09-user-lifecycle-2.png)
 
 Remove Group membership
-![](../screenshots/identity/09-user-lifecycle-3.png)
+![](../../screenshots/identity/09-user-lifecycle-3.png)
 
 Remove License
-![](../screenshots/identity/09-user-lifecycle-4.png)
+![](../../screenshots/identity/09-user-lifecycle-4.png)
+
+           ┌──────────────┐
+           │   Joiner     │
+           │  Onboarding  │
+           └──────┬───────┘
+                  │
+                  ▼
+        Identity Created
+                  │
+                  ▼
+      Active Employee Account
+                  │
+        ┌─────────┴─────────┐
+        ▼                   ▼
+   Role Change          Department Change
+      (Mover)               (Mover)
+        │                   │
+        └─────────┬─────────┘
+                  ▼
+       Updated Identity & Access
+                  │
+                  ▼
+          Employment Ends
+                  │
+                  ▼
+              Leaver
+                  │
+                  ▼
+      Account Disabled & Archived
+
+
 # 7. Technical Explanation
 Explain:
 - Least privilege
@@ -210,4 +313,4 @@ Explain:
 # Change Log
 |Version|Date|Author|
 |---|---|---|
-|1.0|YYYY-MM-DD|Emmanuel Stefan Akinnimi|
+|1.0|2026-08-01|Stefan Akinnimi|
