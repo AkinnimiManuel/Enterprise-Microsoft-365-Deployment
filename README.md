@@ -22,6 +22,28 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 
 ------------------------------------------------------------------------
 
+## ⚡ Quick Navigation
+
+| Phase | Documentation | Status |
+|:-----:|---------------|:------:|
+| 01 | 📋 [Project Planning](docs/01-Project-Planning.md) | ✅ Complete |
+| 02 | 🌐 [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ Complete |
+| 03 | 🏢 [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ Complete |
+| 04 | 👤 [Identity Management](docs/04-identity/README.md) | 🚧 In Progress |
+| 05 | 💳 [Licensing](docs/05-Licensing.md) | ⏳ Planned |
+| 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ⏳ Planned |
+| 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ Planned |
+| 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ Planned |
+| 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ Planned |
+| 10 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
+| 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
+| 12 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
+| 13 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
+
+> **Current Progress:** **4 / 13** phases (31%) completed.
+
+------------------------------------------------------------------------
+
 # 📌 Table of Contents
 
 -   [Project Overview](#-project-overview)
@@ -117,7 +139,7 @@ This repository contains complete implementation documentation for the Enterpris
 |--------|---------------|:------:|
 | 01 | [Project Planning](docs/01-Project-Planning.md) | ✅ |
 | 02 | [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ |
-| 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | 🚧 |
+| 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ |
 | 04 | [Identity Management](docs/04-identity/README.md) | ⏳ |
 | 05 | [Licensing](docs/05-Licensing.md) | ⏳ |
 | 06 | [Exchange Online](docs/06-Exchange-Online.md) | ⏳ |
@@ -138,7 +160,7 @@ This repository contains complete implementation documentation for the Enterpris
   ---------------------- --------
   Project Planning          ✅
   Domain Configuration      ✅
-  Tenant Configuration      ⏳
+  Tenant Configuration      ✅
   Identity Management       ⏳
   Licensing                 ⏳
   Exchange Online           ⏳
