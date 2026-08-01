@@ -154,13 +154,20 @@ Joiner
 
 ```mermaid
 flowchart TD
-    A[HR Request] --> B[Create User Account]
-    B --> C[Assign Microsoft 365 License]
-    C --> D[Assign Groups & Roles]
-    D --> E[Configure MFA & SSPR]
-    E --> F[Provide Temporary Password]
-    F --> G[User Signs In]
-    G --> H[Identity Provisioned ✅]
+    A[HR Request] --> B[Create User]
+    B --> C[Assign License]
+    C --> D[Assign Groups]
+    D --> E[Configure MFA]
+    E --> F[User Signs In]
+    F --> G[Identity Provisioned]
+
+    style A fill:#E3F2FD
+    style B fill:#BBDEFB
+    style C fill:#C8E6C9
+    style D fill:#C8E6C9
+    style E fill:#FFF9C4
+    style F fill:#FFF9C4
+    style G fill:#A5D6A7
 ```
 
 Screenshot:
