@@ -107,17 +107,12 @@ Select the Microsoft 365 Business Premium subscription and review:
 - Total licenses
 - Assigned licenses
 - Available licenses
-- Included services
 
 ### Technical Explanation
 
 Reviewing subscription details confirms license availability and identifies the Microsoft services included in the subscription.
 
 ### Screenshot
-
-```text
-../screenshots/licensing/02-license-details.png
-```
 
 ![](../screenshots/licensing/02-license-details.png)
 
@@ -149,10 +144,6 @@ License assignment activates Microsoft 365 services for users and determines whi
 
 ### Screenshot
 
-```text
-../screenshots/licensing/03-license-assignment.png
-```
-
 ![](../screenshots/licensing/03-license-assignment.png)
 
 ---
@@ -177,35 +168,8 @@ Verifying assigned services confirms that users have access to the workloads req
 
 ### Screenshot
 
-```text
-../screenshots/licensing/04-license-services.png
-```
-
 ![](../screenshots/licensing/04-license-services.png)
 
----
-
-## Step 5 – Review License Usage
-
-Review tenant license consumption.
-
-Verify:
-
-- Total Licenses
-- Assigned Licenses
-- Available Licenses
-
-### Technical Explanation
-
-Monitoring license usage helps administrators manage subscription capacity and plan for future growth.
-
-### Screenshot
-
-```text
-../screenshots/licensing/05-license-usage.png
-```
-
-![](../screenshots/licensing/05-license-usage.png)
 
 ---
 
@@ -228,31 +192,13 @@ Verify that a user has been successfully assigned a Microsoft 365 Business Premi
 
 ### Screenshot
 
-```text
-../screenshots/licensing/validation/user-license.png
-```
+Jane.smith is able to log into Microsoft and chat with her colleagues
 
-![](../screenshots/licensing/validation/user-license.png)
+![](../screenshots/licensing/validation-user-license.png)
 
 ---
 
-## Validation 2 – License Services
-
-**Objective**
-
-Verify that Microsoft 365 workloads are enabled for the licensed user.
-
-### Screenshot
-
-```text
-../screenshots/licensing/validation/license-services.png
-```
-
-![](../screenshots/licensing/validation/license-services.png)
-
----
-
-## Validation 3 – Tenant License Usage
+## Validation 2 – Tenant License Usage
 
 **Objective**
 
@@ -260,11 +206,7 @@ Confirm that tenant license consumption reflects the assigned licenses.
 
 ### Screenshot
 
-```text
-../screenshots/licensing/validation/license-usage.png
-```
-
-![](../screenshots/licensing/validation/license-usage.png)
+![](../screenshots/licensing/validation-license-usage.png)
 
 ---
 
@@ -304,7 +246,7 @@ Microsoft 365 Business Premium licenses were successfully assigned to users with
 
 ## Navigation
 
-⬅️ **Previous:** Identity Architecture
+⬅️ **Previous:** Identity Architecture (../04-identity/Identity-Management.md)
 
 🏠 **Project Home:** [../README.md](../README.md)
 
