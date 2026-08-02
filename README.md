@@ -30,8 +30,8 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 02 | 🌐 [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ Complete |
 | 03 | 🏢 [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ Complete |
 | 04 | 👤 [Identity Management](docs/04-identity/README.md) | ✅ Complete |
-| 05 | 💳 [Licensing](docs/05-Licensing.md) | ⏳ Planned |
-| 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ⏳ Planned |
+| 05 | 💳 [Licensing](docs/05-Licensing.md) | ✅ Complete |
+| 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ⏳ In-Progress |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ Planned |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ Planned |
 | 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ Planned |
@@ -141,7 +141,7 @@ This repository contains complete implementation documentation for the Enterpris
 | 02 | [Domain Configuration](docs/02-Domain-Configuration.md) | ✅ |
 | 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ |
 | 04 | [Identity Management](docs/04-identity/README.md) | ✅ |
-| 05 | [Licensing](docs/05-Licensing.md) | ⏳ |
+| 05 | [Licensing](docs/05-Licensing.md) | ✅ |
 | 06 | [Exchange Online](docs/06-Exchange-Online.md) | ⏳ |
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ |
 | 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ |
@@ -162,7 +162,7 @@ This repository contains complete implementation documentation for the Enterpris
   Domain Configuration      ✅
   Tenant Configuration      ✅
   Identity Management       ✅
-  Licensing                 ⏳
+  Licensing                 ✅
   Exchange Online           ⏳
   Microsoft Teams           ⏳
   SharePoint Online         ⏳
@@ -195,26 +195,50 @@ This repository contains complete implementation documentation for the Enterpris
 Enterprise-Microsoft-365-Deployment
 │
 ├── docs/
-│   ├── Project-Planning.md
-│   ├── Domain-Configuration.md
-│   ├── Tenant-Configuration.md
-│   ├── Identity-Management.md
-│   ├── Licensing.md
-│   ├── Exchange-Online.md
-│   ├── Microsoft-Teams.md
-│   ├── SharePoint-Online.md
-│   ├── OneDrive.md
-│   ├── Microsoft-365-Groups.md
-│   ├── Administration.md
-│   ├── Security-Baseline.md
-│   ├── Testing-and-Validation.md
-│   ├── Troubleshooting.md
-│   └── Architecture.md
+│   ├── 01-Project-Planning.md
+│   ├── 02-Domain-Configuration.md
+│   ├── 03-Tenant-Configuration.md
+│   │
+│   ├── 04-Identity/
+│   │   ├── README.md
+│   │   ├── Identity-Management.md
+│   │   ├── Identity-Groups.md
+│   │   └── Identity-Architecture.md
+│   │
+│   ├── 05-Licensing.md
+│   ├── 06-Exchange-Online.md
+│   ├── 07-Microsoft-Teams.md
+│   ├── 08-SharePoint-Online.md
+│   ├── 09-OneDrive.md
+│   ├── 10-Security-Baseline.md
+│   ├── 11-Microsoft-365-Groups.md
+│   ├── 12-Administration.md
+│   ├── 13-Architecture.md
+│   └── 14-Enterprise-M365-PowerShell.md
 │
 ├── screenshots/
+│   ├── planning/
+│   ├── domain/
+│   ├── tenant/
+│   ├── identity/
+│   │   ├── Identity-Management/
+│   │   ├── Identity-Groups/
+│   ├── licensing/
+│   ├── exchange/
+│   ├── teams/
+│   ├── sharepoint/
+│   ├── onedrive/
+│   ├── security/
+│   ├── administration/
+│   └── architecture/
 │
 ├── assets/
+│   │
+│   ├── diagrams/
+│   └── templates/
 │
+├── LICENSE
+├── .gitignore
 └── README.md
 ```
 
