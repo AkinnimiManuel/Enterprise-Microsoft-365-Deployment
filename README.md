@@ -39,8 +39,9 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
 | 12 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
 | 13 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
+| 14 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ Planned |
 
-> **Current Progress:** **4 / 13** phases (31%) completed.
+> **Current Progress:** **7 / 13** phases (51%) completed.
 
 ------------------------------------------------------------------------
 
@@ -150,6 +151,7 @@ This repository contains complete implementation documentation for the Enterpris
 | 11 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
 | 12 | [Administration](docs/12-Administration.md) | ⏳ |
 | 13 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
+| 14 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
 
 
 ------------------------------------------------------------------------
@@ -163,8 +165,8 @@ This repository contains complete implementation documentation for the Enterpris
   Tenant Configuration      ✅
   Identity Management       ✅
   Licensing                 ✅
-  Exchange Online           ⏳
-  Microsoft Teams           ⏳
+  Exchange Online           ✅
+  Microsoft Teams           ✅
   SharePoint Online         ⏳
   OneDrive                  ⏳
   Administrative Roles      ⏳
@@ -288,7 +290,7 @@ Screenshots will be added throughout the deployment:
   Domain Verified          ✅
   User Authentication      ✅
   Exchange Mail Flow       ✅
-  Teams Collaboration      ⏳
+  Teams Collaboration      ✅
   SharePoint Access        ⏳
   OneDrive Sync            ⏳
   Security Baseline        ⏳
@@ -339,7 +341,7 @@ This section will be updated throughout the project.
 
 # 👨‍💻 Author
 
-## Emmanuel Stefan Akinnimi
+## Stefan Akinnimi
 
 **Microsoft 365 Administrator \| IT Systems Administrator \| Cloud &
 Security Engineer**
