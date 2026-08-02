@@ -9,7 +9,6 @@ This section documents the complete identity management implementation for the *
 - 📄 [Identity Management](Identity-Management.md)
 - 👥 [Identity Groups](Identity-Groups.md)
 - 🏗️ [Identity Architecture](Identity-Architecture.md)
-- ✅ [Identity Validation](Identity-Validation.md)
 
 ## 📖 Overview
 
@@ -34,7 +33,6 @@ The Identity Management phase focuses on establishing a secure and scalable iden
 | 📄 **Identity-Management.md** | User provisioning, administrative roles, authentication methods, password policies, MFA, SSPR, and user lifecycle management. |
 | 📄 **Identity-Groups.md** | Security Groups, Microsoft 365 Groups, Distribution Lists, Shared Mailboxes, and membership strategy. |
 | 📄 **Identity-Architecture.md** | Enterprise identity design, RBAC model, authentication flow, and architecture diagrams. |
-| 📄 **Identity-Validation.md** | Validation procedures, testing results, troubleshooting, and lessons learned. |
 
 ---
 
