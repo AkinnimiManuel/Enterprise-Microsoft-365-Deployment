@@ -49,21 +49,21 @@ Probryx Technologies requires a professional custom domain for Microsoft 365 ide
 
 Screenshot:
 
-![](../Screenshots/domain/01-default-domain.png)
+![](../screenshots/domain/01-default-domain.png)
 
 ### Step 2 - Add Custom Domain
 
-![](../Screenshots/domain/02-add-domain-1.png)
+![](../screenshots/domain/02-add-domain-1.png)
 ![](../screenshots/domain/02-add-domain-2.png)
 
 ### Step 3 - TXT Verification
 
-![](../Screenshots/domain/03-domain-verification-record.png)
-![](../Screenshots/domain/03-domain-verification-record-2.png)
+![](../screenshots/domain/03-domain-verification-record.png)
+![](../screenshots/domain/03-domain-verification-record-2.png)
 
 ### Step 4 - Domain Verified
 
-![](../Screenshots/domain/04-domain-verified.png)
+![](../screenshots/domain/04-domain-verified.png)
 
 ### Step 5 - Configure DNS Records
 
@@ -75,40 +75,40 @@ Screenshot:
 |Enterprise Enrollment|Device Enrollment|08-enterprise-enrollment.png|
 |Enterprise Registration|Device Registration|09-enterprise-registration.png|
 
-![](../Screenshots/domain/05-mx-record.png)
+![](../screenshots/domain/05-mx-record.png)
 
-![](../Screenshots/domain/06-spf-record.png)
+![](../screenshots/domain/06-spf-record.png)
 
-![](../Screenshots/domain/07-autodiscover.png)
+![](../screenshots/domain/07-autodiscover.png)
 
-![](../Screenshots/domain/08-enterprise-enrollment.png)
+![](../screenshots/domain/08-enterprise-enrollment.png)
 
-![](../Screenshots/domain/09-enterprise-registration.png)
+![](../screenshots/domain/09-enterprise-registration.png)
 
-![](../Screenshots/domain/09-DKIM-Setup.png)
+![](../screenshots/domain/09-DKIM-Setup.png)
 
 ### All Records added to the cloudflare domain
-![](../Screenshots/domain/09-Records-added.png)
+![](../screenshots/domain/09-Records-added.png)
 
 ### Domain setup complete
-![](../Screenshots/domain/09-Domain-setup-complete.png)
+![](../screenshots/domain/09-Domain-setup-complete.png)
 
 
 ### Step 6 - Domain Healthy
 
-![](../Screenshots/domain/10-domain-healthy.png)
+![](../screenshots/domain/10-domain-healthy.png)
 
 ### Step 7 - Default Domain
 
-![](../Screenshots/domain/11-default-domain.png)
+![](../screenshots/domain/11-default-domain.png)
 
 ### Step 8 - Verify User UPN
 
-![](../Screenshots/domain/12-user-upn-domain.png)
+![](../screenshots/domain/12-user-upn-domain.png)
 
 ### Step 9 - Exchange Accepted Domain
 
-![](../Screenshots/domain/13-exchange-accepted-domain.png)
+![](../screenshots/domain/13-exchange-accepted-domain.png)
 
 ---
 

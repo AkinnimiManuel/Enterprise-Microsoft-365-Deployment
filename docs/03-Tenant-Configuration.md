@@ -81,10 +81,10 @@ Review:
 
 ### Screenshot
 
-![](../Screenshots/tenant/01-admin-center-home.png)
+![](../screenshots/tenant/01-admin-center-home.png)
 
 ### Subscription
-![](../Screenshots/tenant/01-admin-center-home.png)
+![](../screenshots/tenant/01-admin-center-home.png)
 
 
 ---
@@ -106,7 +106,7 @@ Organization Profile
 ### Screenshot
 
 
-![](../Screenshots/tenant/02-organization-profile.png)
+![](../screenshots/tenant/02-organization-profile.png)
 
 ---
 
@@ -136,11 +136,7 @@ If branding assets are unavailable, document this for future implementation.
 
 ### Screenshot
 
-```
-../screenshots/tenant/03-company-branding.png
-```
-
-![](../Screenshots/tenant/03-company-branding.png)
+![](../screenshots/tenant/03-company-branding.png)
 
 ---
 
@@ -157,13 +153,13 @@ Verify:
 ### Screenshot
 
 ### Organisation Information
-![](../Screenshots/tenant/04-org-information.png)
+![](../screenshots/tenant/04-org-information.png)
 
 ### Custom Domains
-![](../Screenshots/tenant/04-org-information-2.png)
+![](../screenshots/tenant/04-org-information-2.png)
 
 ### Billing Information 
-![](../Screenshots/tenant/04-org-information-3.png)
+![](../screenshots/tenant/04-org-information-3.png)
 
 ---
 
@@ -183,16 +179,16 @@ No changes are required unless necessary.
 
 ### Screenshot
 
-![](../Screenshots/tenant/05-org-settings.png)
+![](../screenshots/tenant/05-org-settings.png)
 
 ### Calendar Settings
-![](../Screenshots/tenant/05-calendar-org-settings.png)
+![](../screenshots/tenant/05-calendar-org-settings.png)
 
 ### User owned app settings
-![](../Screenshots/tenant/05-user-owned-app-org-settings.png)
+![](../screenshots/tenant/05-user-owned-app-org-settings.png)
 
 ### User purchase settings
-![](../Screenshots/tenant/05-self-service-purchase-org-settings.png)
+![](../screenshots/tenant/05-self-service-purchase-org-settings.png)
 
 
 The organization settings were reviewed to understand the tenant's default configuration and identify settings that may require modification in future deployment phases. No changes were made during this phase because the objective was to establish a documented baseline.
@@ -222,11 +218,7 @@ Provides production stability while avoiding preview features.
 
 ### Screenshot
 
-```
-../screenshots/tenant/06-release-preferences.png
-```
-
-![](../Screenshots/tenant/06-release-preferences.png)
+![](../screenshots/tenant/06-release-preferences.png)
 
 ---
 
@@ -248,7 +240,7 @@ Review:
 
 ### Screenshot
 
-![](../Screenshots/tenant/07-service-health.png)
+![](../screenshots/tenant/07-service-health.png)
 
 ---
 
@@ -270,7 +262,7 @@ Review:
 
 ### Screenshot
 
-![](../Screenshots/tenant/08-message-center.png)
+![](../screenshots/tenant/08-message-center.png)
 
 ---
 
@@ -304,7 +296,7 @@ Advanced security configuration will be completed during Project 3.
 
 ### Screenshot
 
-![](../Screenshots/tenant/9-security-defaults.png)
+![](../screenshots/tenant/9-security-defaults.png)
 
 
 ---
@@ -391,6 +383,6 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 | Version | Date | Author | Description |
 |----------|------|--------|-------------|
-| 1.0 | 2026-07-30 | Emmanuel Stefan Akinnimi | Initial Tenant Configuration |
+| 1.0 | 2026-08-02 | Stefan Akinnimi | Initial Tenant Configuration |
 
 ---
