@@ -31,9 +31,9 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 03 | 🏢 [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ Complete |
 | 04 | 👤 [Identity Management](docs/04-identity/README.md) | ✅ Complete |
 | 05 | 💳 [Licensing](docs/05-Licensing.md) | ✅ Complete |
-| 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ⏳ In-Progress |
-| 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ Planned |
-| 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ Planned |
+| 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
+| 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
+| 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ In-Progress |
 | 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ Planned |
 | 10 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
 | 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
