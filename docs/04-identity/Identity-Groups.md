@@ -71,7 +71,7 @@ SG-IT
 SG-HR
 SG-FINANCE
 SG-SALES
-SG-MANAGEMENT
+SG-EXECUTIVE
 ```
 
 ---
@@ -79,10 +79,12 @@ SG-MANAGEMENT
 ## Microsoft 365 Groups
 
 ```
+M365-EXECUTIVE
 M365-IT
 M365-HR
 M365-FINANCE
 M365-SALES
+M365-Probryx
 ```
 
 ---
@@ -94,6 +96,9 @@ DL-AllStaff
 DL-Management
 DL-HR
 DL-IT
+DL-FINANCE
+DL-SALES
+DL-OPERATIONS
 ```
 
 ---
@@ -163,9 +168,10 @@ Assign users to the appropriate departmental Security Groups.
 
 Example:
 
-- John Doe → SG-IT
+- Stefan Akinnimi → SG-IT
 - Jane Smith → SG-HR
-- David Wilson → SG-FINANCE
+- Sarah Wilson → SG-SALES
+
 
 ### Technical Explanation
 
@@ -204,6 +210,7 @@ Microsoft 365 Groups automatically provide shared resources including Outlook, T
 ### Screenshot
 
 ![](../../screenshots/identity/Identity-Groups/03-m365-groups-created.png)
+
 
 ---
 
@@ -296,9 +303,16 @@ Shared mailboxes allow multiple users to manage a common mailbox without requiri
 
 ### Assign members to the shared mailbox
 
-Gave Jane.smith the permission to support@probryx.org shared mailbox
+Assigned stefan.akinnimi the support@probryx.org shared mailbox
 
 ![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes-01.png)
+
+
+Assigned Jane.smith the permission to hr@probryx.org shared mailbox
+
+![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes-02.png)
+
+
 
 ---
 
@@ -319,7 +333,13 @@ Reviewing group membership helps ensure users receive the correct level of acces
 
 ### Screenshot
 
-![](../../screenshots/identity/groups/07-group-membership-review.png)
+Removed M365-HR group owner access from Stefan & Micheal 
+
+![](../../screenshots/identity/Identity-Groups/07-group-membership-review.png)
+
+Added the HR manager as the owner of the M365-HR Group
+
+![](../../screenshots/identity/Identity-Groups/07-group-membership-review-1.png)
 
 ---
 
@@ -350,11 +370,7 @@ Users were successfully assigned to their departmental Security Groups.
 
 ### Screenshot
 
-```text
-../../screenshots/identity/groups/validation/security-group-membership.png
-```
-
-![](../../screenshots/identity/groups/validation/security-group-membership.png)
+![](../../screenshots/identity/Identity-Groups/validation-security-group-membership.png)
 
 ---
 
@@ -370,11 +386,7 @@ The group was provisioned with the associated Microsoft 365 resources, including
 
 ### Screenshot
 
-```text
-../../screenshots/identity/groups/validation/m365-group-validation.png
-```
-
-![](../../screenshots/identity/groups/validation/m365-group-validation.png)
+![](../../screenshots/identity/Identity-Groups/validation-m365-group.png)
 
 ---
 
@@ -390,11 +402,11 @@ The Distribution List was successfully created and is available for organization
 
 ### Screenshot
 
-```text
-../../screenshots/identity/groups/validation/distribution-list-validation.png
-```
+Sent a welcome from the HR manager account (Jane Smith) to all users using the dl-allstaff@probryx.org distribution mailbox
 
-![](../../screenshots/identity/groups/validation/distribution-list-validation.png)
+![](../../screenshots/identity/Identity-Groups/distribution-list-validation.png)
+
+![](../../screenshots/identity/Identity-Groups/distribution-list-validation-1.png)
 
 ---
 
@@ -410,11 +422,7 @@ Assigned users successfully accessed the shared mailbox and were able to send an
 
 ### Screenshot
 
-```text
-../../screenshots/identity/groups/validation/shared-mailbox-validation.png
-```
-
-![](../../screenshots/identity/groups/validation/shared-mailbox-validation.png)
+![](../../screenshots/identity/Identity-Groups/shared-mailbox-validation.png)
 
 ---
 
@@ -437,6 +445,7 @@ Assigned users successfully accessed the shared mailbox and were able to send an
 | User not visible in group | Replication delay | Allow time for Microsoft 365 synchronization |
 | Shared mailbox inaccessible | Missing permissions | Assign Full Access and Send As permissions |
 | Distribution List not receiving mail | Membership configuration | Verify recipients and mail flow settings |
+| Cant edit distribution mailbox details | Some groups can't be managed in the Azure portal | Used the M365 admin portal to edit a DL mailbox
 
 ---
 
@@ -467,6 +476,12 @@ The deployment demonstrates enterprise best practices by applying standardized n
 
 ---
 
+# Change Log
+|Version|Date|Author|
+|---|---|---|
+|1.0|2026-08-02|Stefan Akinnimi|
+
+---
 ## Next Phase
 
 ➡️ **Identity Architecture**

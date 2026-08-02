@@ -77,11 +77,14 @@ Identity → Users → New user
 Created users for every department.
 
 users created:
+- Kolawole Ashipa (CEO - Global Administrator)
+- Damilola Ogunwole (COO)
+- Nurudeen ifagbemi (Associate Director)
 - Stefan Akinnimi (IT Administrator - Global Administrator)
 - Jane Smith (HR Manager)
-- David Johnson (Finance)
-- Sarah Wilson (Sales)
-- Michael Brown (Operations)
+- David Johnson (Finance Manager)
+- Sarah Wilson (Sales Manager)
+- Michael Brown (Operations Manager)
 
 Screenshot:
 ![](../../Screenshots/identity/Identity-Management/02-create-users.png)
@@ -279,7 +282,7 @@ Verify that a User Administrator can successfully create a new user account.
 ![](../../Screenshots/identity/Identity-Management/10-validation-jane-smith-entra-role.png)
 
 2. Navigated to **Microsoft Entra Admin Center** → **Identity** → **Users**.
-3. Selected **New User (Bob Philip)**.
+3. Selected **New User (Bob Philip - HR Officer)**.
 4. Created a test user account.
 
 **Expected Result**
