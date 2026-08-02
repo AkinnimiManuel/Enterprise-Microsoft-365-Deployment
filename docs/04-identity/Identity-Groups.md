@@ -155,10 +155,10 @@ Security Groups are used to manage access to organizational resources by assigni
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/01-security-groups-created.png)
+![](../../Screenshots/identity/Identity-Groups/01-security-groups-created.png)
 
 ### All SG Created
-![](../../screenshots/identity/Identity-Groups/01-security-groups-created-1.png)
+![](../../Screenshots/identity/Identity-Groups/01-security-groups-created-1.png)
 
 ---
 
@@ -179,7 +179,7 @@ Adding users to groups centralizes permission management and reduces administrat
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/02-security-group-members.png)
+![](../../Screenshots/identity/Identity-Groups/02-security-group-members.png)
 
 ---
 
@@ -209,7 +209,7 @@ Microsoft 365 Groups automatically provide shared resources including Outlook, T
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/03-m365-groups-created.png)
+![](../../Screenshots/identity/Identity-Groups/03-m365-groups-created.png)
 
 
 ---
@@ -230,7 +230,7 @@ Group owners are responsible for managing membership and maintaining the group's
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/04-group-owners.png)
+![](../../Screenshots/identity/Identity-Groups/04-group-owners.png)
 
 ---
 
@@ -260,9 +260,9 @@ Distribution Lists simplify email communication by allowing messages to be sent 
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/05-distribution-lists.png)
+![](../../Screenshots/identity/Identity-Groups/05-distribution-lists.png)
 
-![](../../screenshots/identity/Identity-Groups/05-distribution-lists-groups.png)
+![](../../Screenshots/identity/Identity-Groups/05-distribution-lists-groups.png)
 ---
 
 ## Step 6 – Create Shared Mailboxes
@@ -299,18 +299,18 @@ Shared mailboxes allow multiple users to manage a common mailbox without requiri
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes.png)
+![](../../Screenshots/identity/Identity-Groups/06-shared-mailboxes.png)
 
 ### Assign members to the shared mailbox
 
 Assigned stefan.akinnimi the support@probryx.org shared mailbox
 
-![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes-01.png)
+![](../../Screenshots/identity/Identity-Groups/06-shared-mailboxes-01.png)
 
 
 Assigned Jane.smith the permission to hr@probryx.org shared mailbox
 
-![](../../screenshots/identity/Identity-Groups/06-shared-mailboxes-02.png)
+![](../../Screenshots/identity/Identity-Groups/06-shared-mailboxes-02.png)
 
 
 
@@ -335,11 +335,11 @@ Reviewing group membership helps ensure users receive the correct level of acces
 
 Removed M365-HR group owner access from Stefan & Micheal 
 
-![](../../screenshots/identity/Identity-Groups/07-group-membership-review.png)
+![](../../Screenshots/identity/Identity-Groups/07-group-membership-review.png)
 
 Added the HR manager as the owner of the M365-HR Group
 
-![](../../screenshots/identity/Identity-Groups/07-group-membership-review-1.png)
+![](../../Screenshots/identity/Identity-Groups/07-group-membership-review-1.png)
 
 ---
 
@@ -370,7 +370,7 @@ Users were successfully assigned to their departmental Security Groups.
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/validation-security-group-membership.png)
+![](../../Screenshots/identity/Identity-Groups/validation-security-group-membership.png)
 
 ---
 
@@ -386,7 +386,7 @@ The group was provisioned with the associated Microsoft 365 resources, including
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/validation-m365-group.png)
+![](../../Screenshots/identity/Identity-Groups/validation-m365-group.png)
 
 ---
 
@@ -404,9 +404,9 @@ The Distribution List was successfully created and is available for organization
 
 Sent a welcome from the HR manager account (Jane Smith) to all users using the dl-allstaff@probryx.org distribution mailbox
 
-![](../../screenshots/identity/Identity-Groups/distribution-list-validation.png)
+![](../../Screenshots/identity/Identity-Groups/distribution-list-validation.png)
 
-![](../../screenshots/identity/Identity-Groups/distribution-list-validation-1.png)
+![](../../Screenshots/identity/Identity-Groups/distribution-list-validation-1.png)
 
 ---
 
@@ -422,7 +422,7 @@ Assigned users successfully accessed the shared mailbox and were able to send an
 
 ### Screenshot
 
-![](../../screenshots/identity/Identity-Groups/shared-mailbox-validation.png)
+![](../../Screenshots/identity/Identity-Groups/shared-mailbox-validation.png)
 
 ---
 
