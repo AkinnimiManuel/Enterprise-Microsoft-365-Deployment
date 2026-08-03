@@ -176,3 +176,9 @@ Microsoft 365 Business Premium
 -   Video Walkthrough
 
 **Status:** In Progress
+
+## Navigation
+
+🏠 Project Home: [../README.md](../README.md)
+
+➡️ Next: [Domain Configuration](02-Domain-Configuration.md)

@@ -379,10 +379,10 @@ Security Defaults provide a baseline level of protection including Multi-Factor 
 
 ---
 
-# Change Log
+## Navigation
 
-| Version | Date | Author | Description |
-|----------|------|--------|-------------|
-| 1.0 | 2026-08-02 | Stefan Akinnimi | Initial Tenant Configuration |
+⬅️ Previous: [Domain Configuration](02-Domain-Configuration.md)
 
----
+🏠 Project Home: [../README.md](../README.md)
+
+➡️ Next: [Identity Management](../docs/04-identity/README.md)

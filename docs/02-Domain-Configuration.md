@@ -157,3 +157,11 @@ DMARC (TXT): Specifies how to handle emails that fail authentication, protecting
 
 - Microsoft Learn - Microsoft 365 Custom Domains
 - Microsoft Learn - Exchange Online DNS Records
+
+## Navigation
+
+⬅️ Previous: [Project Planning](01-Project-Planning.md)
+
+🏠 Project Home: [../README.md](../README.md)
+
+➡️ Next: [Tenant Configuration](03-Tenant-Configuration.md)

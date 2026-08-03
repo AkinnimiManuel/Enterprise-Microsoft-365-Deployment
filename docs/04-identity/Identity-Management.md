@@ -432,3 +432,11 @@ User lifecycle management ensures accounts are created, updated, and removed as 
 |Version|Date|Author|
 |---|---|---|
 |1.0|2026-08-02|Stefan Akinnimi|
+
+## Navigation
+
+⬅️ Previous: [Tenant Configuration](03-Tenant-Configuration.md)
+
+🏠 Project Home: [../README.md](../README.md)
+
+➡️ Next: [Identity Groups](Identity-Groups.md)

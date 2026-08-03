@@ -333,8 +333,8 @@ Microsoft Teams was successfully deployed and validated for Probryx Technologies
 
 ## Navigation
 
-⬅️ Previous: Licensing
+⬅️ Previous: [Exchange online](06-Exchange-Online.md)
 
 🏠 Project Home: [../README.md](../README.md)
 
-➡️ Next: SharePoint Online
+➡️ Next: [SharePoint Online](08-SHarePoint-Online.md)

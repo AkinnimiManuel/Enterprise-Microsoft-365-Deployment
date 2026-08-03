@@ -246,8 +246,8 @@ Microsoft 365 Business Premium licenses were successfully assigned to users with
 
 ## Navigation
 
-⬅️ **Previous:** Identity Architecture (../04-identity/Identity-Management.md)
+⬅️ **Previous:** [Identity Management](../docs/04-identity/README.md)
 
 🏠 **Project Home:** [../README.md](../README.md)
 
-➡️ **Next:** Exchange Online
+➡️ **Next:** [Exchange Online](06-Exchange-Online.md)

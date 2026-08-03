@@ -33,7 +33,7 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 05 | 💳 [Licensing](docs/05-Licensing.md) | ✅ Complete |
 | 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
-| 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ In-Progress |
+| 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
 | 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ Planned |
 | 10 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
 | 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |

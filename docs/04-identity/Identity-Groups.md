@@ -482,6 +482,10 @@ The deployment demonstrates enterprise best practices by applying standardized n
 |1.0|2026-08-02|Stefan Akinnimi|
 
 ---
-## Next Phase
+## Navigation
 
-➡️ **Identity Architecture**
+⬅️ Previous: [Identity Management](Identity-Management.md)
+
+🏠 Project Home: [../README.md](../README.md)
+
+➡️ Next: [Licensing](../05-Licensing.md)

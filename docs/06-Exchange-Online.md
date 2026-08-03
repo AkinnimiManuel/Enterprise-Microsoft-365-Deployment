@@ -357,8 +357,8 @@ Exchange Online was successfully deployed and validated for Probryx Technologies
 
 ## Navigation
 
-⬅️ Previous: Licensing
+⬅️ Previous: [Licensing](05-Licensing.md)
 
 🏠 Project Home: [../README.md](../README.md)
 
-➡️ Next: Microsoft Teams
+➡️ Next: [Microsoft Teams](07-Microsoft-Teams.md)
