@@ -331,7 +331,7 @@ SharePoint Online was successfully deployed and validated for Probryx Technologi
 
 ## Navigation
 
-⬅️ Previous: [Microsoft Teams](../07-Microsoft-Teams.md)
+⬅️ Previous: [Microsoft Teams](07-Microsoft-Teams.md)
 
 🏠 Project Home: [../README.md](../README.md)
 
