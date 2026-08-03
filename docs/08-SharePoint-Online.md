@@ -154,11 +154,11 @@ Permissions ensure that users only have access to the resources required for the
 
 ### Screenshot
 
-![](../screenshots/sharepoint/05-site-permissions.png)
+![](../screenshots/sharepoint/04-site-permissions.png)
 
 ---
 
-## Step 6 – Configure Version History
+## Step 5 – Configure Version History
 
 Enable Version History for document libraries.
 
@@ -174,11 +174,11 @@ Version History protects documents by allowing previous versions to be restored 
 
 ### Screenshot
 
-![](../screenshots/sharepoint/06-version-history.png)
+![](../screenshots/sharepoint/05-version-history.png)
 
 ---
 
-## Step 7 – Upload Documents
+## Step 6 – Upload Documents
 
 Upload sample documents to each department site.
 
@@ -197,11 +197,11 @@ Uploading documents validates storage functionality and collaboration features.
 
 ### Screenshot
 
-![](../screenshots/sharepoint/07-document-upload.png)
+![](../screenshots/sharepoint/06-document-upload.png)
 
 ---
 
-## Step 8 – Test Collaboration
+## Step 7 – Test Collaboration
 
 Open a document from the HR site as Jane Smith.
 
@@ -217,11 +217,11 @@ SharePoint supports real-time document collaboration and automatic version contr
 
 ### Screenshot
 
-![](../screenshots/sharepoint/08-document-collaboration.png)
+![](../screenshots/sharepoint/07-document-collaboration.png)
 
 ---
 
-## Step 9 – Test File Sharing
+## Step 8 – Test File Sharing
 
 Share a document with Bob Philip.
 
@@ -237,11 +237,11 @@ SharePoint securely shares documents while maintaining centralized permission ma
 
 ### Screenshot
 
-![](../screenshots/sharepoint/09-file-sharing.png)
+![](../screenshots/sharepoint/08-file-sharing.png)
 
 ---
 
-## Step 10 – Review SharePoint Settings
+## Step 9 – Review SharePoint Settings
 
 Navigate to
 
@@ -265,7 +265,17 @@ Reviewing SharePoint settings confirms that tenant-wide collaboration policies a
 
 ### Screenshot
 
-![](../screenshots/sharepoint/10-sharepoint-settings.png)
+Storage Limit 
+
+![](../screenshots/sharepoint/09-sharepoint-settings.png)
+
+Sharing Settings
+
+![](../screenshots/sharepoint/09-sharepoint-settings-1.png)
+
+Access Control 
+
+![](../screenshots/sharepoint/09-sharepoint-settings-2.png)
 
 ---
 
@@ -281,46 +291,6 @@ Reviewing SharePoint settings confirms that tenant-wide collaboration policies a
 | File Upload Successful | Success | ✅ |
 | Internal Sharing Successful | Success | ✅ |
 | Document Collaboration Successful | Success | ✅ |
-
----
-
-## Validation 1 – Department Sites
-
-Verify departmental SharePoint sites have been successfully created.
-
-### Screenshot
-
-![](../screenshots/sharepoint/validation/sites-created.png)
-
----
-
-## Validation 2 – Document Libraries
-
-Verify document libraries exist within each department site.
-
-### Screenshot
-
-![](../screenshots/sharepoint/validation/document-libraries.png)
-
----
-
-## Validation 3 – File Collaboration
-
-Verify users can edit documents collaboratively.
-
-### Screenshot
-
-![](../screenshots/sharepoint/validation/document-collaboration.png)
-
----
-
-## Validation 4 – File Sharing
-
-Verify internal users can access shared documents.
-
-### Screenshot
-
-![](../screenshots/sharepoint/validation/file-sharing.png)
 
 ---
 
@@ -361,7 +331,7 @@ SharePoint Online was successfully deployed and validated for Probryx Technologi
 
 ## Navigation
 
-⬅️ Previous: Microsoft Teams
+⬅️ Previous: [Microsoft Teams](../07-Microsoft-Teams.md)
 
 🏠 Project Home: [../README.md](../README.md)
 
