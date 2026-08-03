@@ -34,7 +34,7 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
-| 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ Planned |
+| 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ In-Progress |
 | 10 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
 | 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
 | 12 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
@@ -143,9 +143,9 @@ This repository contains complete implementation documentation for the Enterpris
 | 03 | [Tenant Configuration](docs/03-Tenant-Configuration.md) | ✅ |
 | 04 | [Identity Management](docs/04-identity/README.md) | ✅ |
 | 05 | [Licensing](docs/05-Licensing.md) | ✅ |
-| 06 | [Exchange Online](docs/06-Exchange-Online.md) | ⏳ |
-| 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ⏳ |
-| 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ⏳ |
+| 06 | [Exchange Online](docs/06-Exchange-Online.md) | ✅ |
+| 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ |
+| 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ |
 | 09 | [OneDrive for Business](09-docs/OneDrive.md) | ⏳ |
 | 10 | [Security Baseline](docs/10-Security-Baseline.md) | ⏳ |
 | 11 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
@@ -167,7 +167,7 @@ This repository contains complete implementation documentation for the Enterpris
   Licensing                 ✅
   Exchange Online           ✅
   Microsoft Teams           ✅
-  SharePoint Online         ⏳
+  SharePoint Online         ✅
   OneDrive                  ⏳
   Administrative Roles      ⏳
   Security Baseline         ⏳
@@ -291,7 +291,7 @@ Screenshots will be added throughout the deployment:
   User Authentication      ✅
   Exchange Mail Flow       ✅
   Teams Collaboration      ✅
-  SharePoint Access        ⏳
+  SharePoint Access        ✅
   OneDrive Sync            ⏳
   Security Baseline        ⏳
 
