@@ -34,12 +34,11 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
-| 09 | ☁️ [OneDrive for Business](docs/09-OneDrive.md) | ⏳ In-Progress |
-| 10 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
-| 11 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
-| 12 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
-| 13 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
-| 14 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ Planned |
+| 09 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
+| 10 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
+| 11 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
+| 12 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
+| 13 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ Planned |
 
 > **Current Progress:** **7 / 13** phases (51%) completed.
 
@@ -146,12 +145,11 @@ This repository contains complete implementation documentation for the Enterpris
 | 06 | [Exchange Online](docs/06-Exchange-Online.md) | ✅ |
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ |
 | 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ |
-| 09 | [OneDrive for Business](09-docs/OneDrive.md) | ⏳ |
-| 10 | [Security Baseline](docs/10-Security-Baseline.md) | ⏳ |
-| 11 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
-| 12 | [Administration](docs/12-Administration.md) | ⏳ |
-| 13 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
-| 14 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
+| 09 | [Security Baseline](docs/10-Security-Baseline.md) | ⏳ |
+| 10 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
+| 11 | [Administration](docs/12-Administration.md) | ⏳ |
+| 12 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
+| 13 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
 
 
 ------------------------------------------------------------------------
@@ -168,7 +166,6 @@ This repository contains complete implementation documentation for the Enterpris
   Exchange Online           ✅
   Microsoft Teams           ✅
   SharePoint Online         ✅
-  OneDrive                  ⏳
   Administrative Roles      ⏳
   Security Baseline         ⏳
   Validation Testing        ⏳
@@ -182,7 +179,6 @@ This repository contains complete implementation documentation for the Enterpris
 -   Exchange Online
 -   Microsoft Teams
 -   SharePoint Online
--   OneDrive for Business
 -   Microsoft 365 Admin Center
 -   PowerShell
 -   GitHub
@@ -211,12 +207,11 @@ Enterprise-Microsoft-365-Deployment
 │   ├── 06-Exchange-Online.md
 │   ├── 07-Microsoft-Teams.md
 │   ├── 08-SharePoint-Online.md
-│   ├── 09-OneDrive.md
-│   ├── 10-Security-Baseline.md
-│   ├── 11-Microsoft-365-Groups.md
-│   ├── 12-Administration.md
-│   ├── 13-Architecture.md
-│   └── 14-Enterprise-M365-PowerShell.md
+│   ├── 09-Security-Baseline.md
+│   ├── 10-Microsoft-365-Groups.md
+│   ├── 11-Administration.md
+│   ├── 12-Architecture.md
+│   └── 13-Enterprise-M365-PowerShell.md
 │
 ├── screenshots/
 │   ├── planning/
@@ -228,8 +223,7 @@ Enterprise-Microsoft-365-Deployment
 │   ├── licensing/
 │   ├── exchange/
 │   ├── teams/
-│   ├── sharepoint/
-│   ├── onedrive/
+│   ├── sharepoint/│
 │   ├── security/
 │   ├── administration/
 │   └── architecture/
@@ -276,7 +270,6 @@ Screenshots will be added throughout the deployment:
 -   Exchange Online
 -   Microsoft Teams
 -   SharePoint
--   OneDrive
 -   Security
 -   Validation
 
@@ -292,7 +285,7 @@ Screenshots will be added throughout the deployment:
   Exchange Mail Flow       ✅
   Teams Collaboration      ✅
   SharePoint Access        ✅
-  OneDrive Sync            ⏳
+  OneDrive Sync            ✅
   Security Baseline        ⏳
 
 ------------------------------------------------------------------------
