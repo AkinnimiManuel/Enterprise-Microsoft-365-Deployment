@@ -181,6 +181,7 @@ Document:
 Conditional Access evaluates signals such as user, device, location, and application before granting access.
 
 ### Screenshot
+Conditional Access: No policies configured at this stage. Access protection is currently provided through Microsoft Entra Security Defaults. Advanced Conditional Access policies will be implemented during Project 3 – Zero Trust Security Implementation.
 
 ![](../screenshots/security/03-conditional-access.png)
 
@@ -204,6 +205,7 @@ MFA adds an additional authentication factor and significantly reduces the risk 
 
 ![](../screenshots/security/04-admin-mfa.png)
 
+Administrator MFA is enforced through Security Defaults. This provides an additional authentication factor for privileged accounts without requiring a separate MFA policy.
 ---
 
 ## Step 5 – Review Legacy Authentication Protection
@@ -217,6 +219,8 @@ Legacy authentication does not support modern authentication controls such as MF
 ### Screenshot
 
 ![](../screenshots/security/05-legacy-authentication.png)
+
+Legacy authentication is blocked through Security Defaults. This prevents older authentication methods that do not support modern security controls such as MFA.
 
 ---
 
