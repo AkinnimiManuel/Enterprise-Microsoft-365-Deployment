@@ -246,6 +246,8 @@ Microsoft Defender for Business provides endpoint protection and threat detectio
 
 ![](../screenshots/security/06-defender-overview.png)
 
+![](../screenshots/security/06-defender-overview-1.png)
+
 ---
 
 ## Step 7 – Review Exchange Online Protection
