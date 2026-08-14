@@ -35,12 +35,10 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
 | 09 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ✅ Complete |
-| 10 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
-| 11 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
-| 12 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
-| 13 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ Planned |
+| 10 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
+| 11 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ Planned |
 
-> **Current Progress:** **7 / 13** phases (51%) completed.
+> **Current Progress:** **9 / 13** phases (80%) completed.
 
 ------------------------------------------------------------------------
 
@@ -146,10 +144,8 @@ This repository contains complete implementation documentation for the Enterpris
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ |
 | 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ |
 | 09 | [Security Baseline](docs/10-Security-Baseline.md) | ✅ |
-| 10 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
-| 11 | [Administration](docs/12-Administration.md) | ⏳ |
-| 12 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
-| 13 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
+| 10 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
+| 11 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
 
 
 ------------------------------------------------------------------------
@@ -166,7 +162,6 @@ This repository contains complete implementation documentation for the Enterpris
   Exchange Online           ✅
   Microsoft Teams           ✅
   SharePoint Online         ✅
-  Administrative Roles      ⏳
   Security Baseline         ⏳
   Validation Testing        ⏳
 
@@ -208,10 +203,8 @@ Enterprise-Microsoft-365-Deployment
 │   ├── 07-Microsoft-Teams.md
 │   ├── 08-SharePoint-Online.md
 │   ├── 09-Security-Baseline.md
-│   ├── 10-Microsoft-365-Groups.md
-│   ├── 11-Administration.md
-│   ├── 12-Architecture.md
-│   └── 13-Enterprise-M365-PowerShell.md
+│   ├── 10-Architecture.md
+│   └── 11-Enterprise-M365-PowerShell.md
 │
 ├── screenshots/
 │   ├── planning/
@@ -225,7 +218,6 @@ Enterprise-Microsoft-365-Deployment
 │   ├── teams/
 │   ├── sharepoint/│
 │   ├── security/
-│   ├── administration/
 │   └── architecture/
 │
 ├── assets/

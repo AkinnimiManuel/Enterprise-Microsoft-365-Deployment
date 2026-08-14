@@ -394,7 +394,7 @@ Advanced security controls will be implemented during the Zero Trust Security Im
 
 ## Navigation
 
-⬅️ Previous: SharePoint Online
+⬅️ Previous: [SharePoint Online](../docs/08-SharePoint-Online.md)
 
 🏠 Project Home: [../README.md](../README.md)
 
