@@ -34,11 +34,11 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
-| 09 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ✅ Complete |
-| 10 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ✅ Complete |
-| 11 | 🐚 [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ✅ Complete |
+| 09 | 🛡️ [Security Baseline](docs/09-Security-Baseline.md) | ✅ Complete |
+| 10 | 🏗️ [Solution Architecture](docs/10-Architecture.md) | ✅ Complete |
+| 11 | 🐚 [Enterprise M365 PowerShell](docs/11-Enterprise-M365-PowerShell.md) | ✅ Complete |
 
-> **Current Progress:** **9 / 13** phases (100%) completed.
+> **Current Progress:** **13 / 13** phases (100%) completed.
 
 ------------------------------------------------------------------------
 
