@@ -144,8 +144,8 @@ This repository contains complete implementation documentation for the Enterpris
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ |
 | 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ |
 | 09 | [Security Baseline](docs/10-Security-Baseline.md) | ✅ |
-| 10 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
-| 11 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ⌛ |
+| 10 | [Solution Architecture](docs/13-Architecture.md) | ✅ |
+| 11 | [Enterprise M365 PowerShell](docs/14-Enterprise-M365-PowerShell.md) | ✅  |
 
 
 ------------------------------------------------------------------------
@@ -162,8 +162,8 @@ This repository contains complete implementation documentation for the Enterpris
   Exchange Online           ✅
   Microsoft Teams           ✅
   SharePoint Online         ✅
-  Security Baseline         ⏳
-  Validation Testing        ⏳
+  Security Baseline         ✅
+  Validation Testing        ✅
 
 ------------------------------------------------------------------------
 
