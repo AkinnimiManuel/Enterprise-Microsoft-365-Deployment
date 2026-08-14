@@ -270,36 +270,11 @@ Exchange Online Protection helps protect organisational email from spam, malware
 
 ![](../screenshots/security/07-exchange-protection.png)
 
----
-
-## Step 8 – Review SharePoint and OneDrive Sharing
-
-Navigate to:
-
-**SharePoint Admin Center**
-
-→ **Policies**
-
-→ **Sharing**
-
-Review:
-
-- SharePoint external sharing
-- OneDrive external sharing
-- Default sharing links
-- Guest access
-
-### Technical Explanation
-
-Sharing policies control how organisational data can be shared internally and externally.
-
-### Screenshot
-
-![](../screenshots/security/08-sharing-settings.png)
+![](../screenshots/security/07-exchange-protection-1.png)
 
 ---
 
-## Step 9 – Verify Audit Logging
+## Step 8 – Verify Audit Logging
 
 Navigate to:
 
@@ -317,7 +292,7 @@ Audit logging records user and administrator activities across Microsoft 365 and
 
 ### Screenshot
 
-![](../screenshots/security/09-audit-logging.png)
+![](../screenshots/security/08-audit-logging.png)
 
 ---
 
@@ -329,50 +304,9 @@ Audit logging records user and administrator activities across Microsoft 365 and
 | MFA | Administrators protected | ✅ |
 | Conditional Access | Policies reviewed | ✅ |
 | Legacy Authentication | Restricted | ✅ |
-| Defender | Configuration reviewed | ⏳ |
+| Defender | Configuration reviewed | ✅ |
 | Exchange Protection | Protection enabled | ✅ |
-| External Sharing | Configuration reviewed | ✅ |
 | Audit Logging | Logging available | ✅ |
-
----
-
-## Validation 1 – Administrator MFA
-
-Sign in using an administrator account and verify that MFA is required.
-
-### Screenshot
-
-![](../screenshots/security/validation/admin-mfa.png)
-
----
-
-## Validation 2 – Conditional Access
-
-Verify that Conditional Access policies are enabled and applying correctly.
-
-### Screenshot
-
-![](../screenshots/security/validation/conditional-access.png)
-
----
-
-## Validation 3 – Legacy Authentication
-
-Verify that legacy authentication is blocked or restricted.
-
-### Screenshot
-
-![](../screenshots/security/validation/legacy-authentication.png)
-
----
-
-## Validation 4 – Audit Logs
-
-Generate or review a Microsoft 365 activity and verify that the activity appears in the audit logs.
-
-### Screenshot
-
-![](../screenshots/security/validation/audit-log.png)
 
 ---
 
