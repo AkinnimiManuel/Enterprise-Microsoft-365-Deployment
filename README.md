@@ -34,7 +34,7 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 06 | 📧 [Exchange Online](docs/06-Exchange-Online.md) | ✅ Complete |
 | 07 | 💬 [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ Complete |
 | 08 | 📁 [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ Complete |
-| 09 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ⏳ Planned |
+| 09 | 🛡️ [Security Baseline](docs/10-Security-Baseline.md) | ✅ Complete |
 | 10 | 👥 [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ Planned |
 | 11 | ⚙️ [Administration](docs/12-Administration.md) | ⏳ Planned |
 | 12 | 🏗️ [Solution Architecture](docs/13-Architecture.md) | ⏳ Planned |
@@ -145,7 +145,7 @@ This repository contains complete implementation documentation for the Enterpris
 | 06 | [Exchange Online](docs/06-Exchange-Online.md) | ✅ |
 | 07 | [Microsoft Teams](docs/07-Microsoft-Teams.md) | ✅ |
 | 08 | [SharePoint Online](docs/08-SharePoint-Online.md) | ✅ |
-| 09 | [Security Baseline](docs/10-Security-Baseline.md) | ⏳ |
+| 09 | [Security Baseline](docs/10-Security-Baseline.md) | ✅ |
 | 10 | [Microsoft 365 Groups](docs/11-Microsoft-365-Groups.md) | ⏳ |
 | 11 | [Administration](docs/12-Administration.md) | ⏳ |
 | 12 | [Solution Architecture](docs/13-Architecture.md) | ⏳ |
@@ -286,7 +286,7 @@ Screenshots will be added throughout the deployment:
   Teams Collaboration      ✅
   SharePoint Access        ✅
   OneDrive Sync            ✅
-  Security Baseline        ⏳
+  Security Baseline        ✅
 
 ------------------------------------------------------------------------
 
