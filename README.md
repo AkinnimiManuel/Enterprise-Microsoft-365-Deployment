@@ -222,11 +222,7 @@ Enterprise-Microsoft-365-Deployment
 │
 ├── assets/
 │   │
-│   ├── diagrams/
-│   └── templates/
-│
-├── LICENSE
-├── .gitignore
+│   └── images/
 └── README.md
 ```
 
