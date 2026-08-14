@@ -38,7 +38,7 @@ Teams](https://img.shields.io/badge/Microsoft-Teams-6264A7?style=for-the-badge)
 | 10 | 🏗️ [Solution Architecture](docs/10-Architecture.md) | ✅ Complete |
 | 11 | 🐚 [Enterprise M365 PowerShell](docs/11-Enterprise-M365-PowerShell.md) | ✅ Complete |
 
-> **Current Progress:** **13 / 13** phases (100%) completed.
+> **Current Progress:** **11 / 11** phases (100%) completed.
 
 ------------------------------------------------------------------------
 
